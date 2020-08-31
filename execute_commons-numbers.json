@@ -1,0 +1,649 @@
+{
+  "url" : "https://github.com/apache/commons-numbers.git",
+  "versions" : {
+    "f7cca80f4a6913f22829ad5dfcebd980ce5289cd" : {
+      "testcases" : {
+        "org.apache.commons.complex.ComplexTest" : [ "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2" ]
+      },
+      "predecessor" : "dbad5ed4b7d577f9cf8cc757807b4b886c9dcbbf"
+    },
+    "e5e3e49afb6d9bbd24c78bc3fd067667d6e536f3" : {
+      "testcases" : {
+        "org.apache.commons.complex.ComplexTest" : [ "testSqrtPolar" ],
+        "org.apache.commons.complex.ComplexUtilsTest" : [ "testPolar2Complex", "testPolar2ComplexIllegalModulus", "testPolar2ComplexInf", "testPolar2ComplexNaN" ]
+      },
+      "predecessor" : "c11baf2d397134c700b17a1603b041d49e2af01e"
+    },
+    "b206d9c80c95433d530e639308e38b92c7e3fdef" : {
+      "testcases" : {
+        "org.apache.commons.complex.RootsOfUnityTest" : [ "testComputeRoots" ]
+      },
+      "predecessor" : "e5e3e49afb6d9bbd24c78bc3fd067667d6e536f3"
+    },
+    "2b29ed84c9461fba037b8ebfd8a39637c08b6b3e" : {
+      "testcases" : {
+        "org.apache.commons.complex.ComplexTest" : [ "testPow", "testPowInf", "testPowNaNBase", "testPowNaNExponent", "testPowZero", "testScalarPow", "testScalarPowInf", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarPowZero" ]
+      },
+      "predecessor" : "2b29ed84c9461fba037b8ebfd8a39637c08b6b3e~1"
+    },
+    "60308d79340ebc90d579384fed8bea0bdc6ba319" : {
+      "testcases" : {
+        "org.apache.commons.complex.ComplexTest" : [ "testExp", "testLogInf", "testPowZero", "testScalarPowZero", "testSqrtPolar" ]
+      },
+      "predecessor" : "60308d79340ebc90d579384fed8bea0bdc6ba319~1"
+    },
+    "dca007d2226649a55bd3ee512580ca63d7354e56" : {
+      "testcases" : {
+        "commons-numbers-core?org.apache.commons.numbers.core.ArithmeticUtilsTest" : [ "testAddAndCheck", "testAddAndCheckLong", "testGcd", "testGcdConsistency", "testGcdLong", "testLcm", "testLcmLong", "testMulAndCheck", "testMulAndCheckLong", "testPow", "testPowInt", "testPowIntOverflow", "testPowLong", "testPowLongOverflow", "testPowMinusOneInt", "testPowMinusOneLong", "testPowNegativeInt", "testPowNegativeIntOverflow", "testPowNegativeLong", "testPowNegativeLongOverflow", "testPowOneInt", "testPowOneLong", "testSubAndCheck", "testSubAndCheckErrorMessage", "testSubAndCheckLong" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseInvalid", "testParseInvalidDenominator", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testConstructor", "testDivide", "testGetReducedFraction", "testGoldenRatio", "testNegativeValueOverflow", "testPositiveValueOverflow", "testReciprocal" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFieldTest" : [ "testOne", "testZero" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFormatTest" : [ "testDoubleFormat", "testFormat", "testFormatImproper", "testFormatImproperNegative", "testFormatNegative", "testFormatZero", "testLongFormat", "testParse", "testParseInteger", "testParseInvalid", "testParseInvalidDenominator", "testParseNegative", "testParseOne1", "testParseOne2", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative", "testParseZero1", "testParseZero2" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAbs", "testAdd", "testCompareTo", "testConstructor", "testConstructorDouble", "testDigitLimitConstructor", "testDivide", "testDoubleConstructor", "testDoubleValue", "testEpsilonLimitConstructor", "testEqualsAndHashCode", "testFloatValue", "testGetReducedFraction", "testGoldenRatio", "testIntValue", "testIntegerOverflow", "testLongValue", "testMath1261", "testMath835", "testMultiply", "testNegate", "testPercentage", "testReciprocal", "testSerial", "testSubtract", "testToString" ]
+      },
+      "predecessor" : "ca71f3559f3b51804dca33dc895c2b89b846f124"
+    },
+    "fbb60fbf90c4912492c748bca6638ccbcad399bd" : {
+      "testcases" : {
+        "commons-numbers-core?org.apache.commons.numbers.core.ArithmeticUtilsTest" : [ "testAddAndCheck", "testAddAndCheckLong", "testGcd", "testGcdConsistency", "testGcdLong", "testLcm", "testLcmLong", "testMulAndCheck", "testMulAndCheckLong", "testPow", "testPowInt", "testPowIntOverflow", "testPowLong", "testPowLongOverflow", "testPowMinusOneInt", "testPowMinusOneLong", "testPowNegativeInt", "testPowNegativeIntOverflow", "testPowNegativeLong", "testPowNegativeLongOverflow", "testPowOneInt", "testPowOneLong", "testSubAndCheck", "testSubAndCheckErrorMessage", "testSubAndCheckLong" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFieldTest" : [ "testOne", "testZero" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFormatTest" : [ "testDoubleFormat", "testFormat", "testFormatImproper", "testFormatImproperNegative", "testFormatNegative", "testFormatZero", "testLongFormat", "testParse", "testParseInteger", "testParseNegative", "testParseOne1", "testParseOne2", "testParseProper", "testParseProperNegative", "testParseZero1", "testParseZero2" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAbs", "testAdd", "testCompareTo", "testConstructor", "testConstructorDouble", "testDigitLimitConstructor", "testDivide", "testDoubleConstructor", "testDoubleValue", "testEpsilonLimitConstructor", "testEqualsAndHashCode", "testFloatValue", "testGetReducedFraction", "testGoldenRatio", "testIntValue", "testIntegerOverflow", "testLongValue", "testMath1261", "testMath835", "testMultiply", "testNegate", "testPercentage", "testReciprocal", "testSerial", "testSubtract", "testToString" ]
+      },
+      "predecessor" : "fbb60fbf90c4912492c748bca6638ccbcad399bd~1"
+    },
+    "2376972689063b7f6f8708c49c138b25b4710310" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testMath221", "testReciprocalReal" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInterleavedToComplex", "testRealToComplex", "testSplit2Complex" ]
+      },
+      "predecessor" : "fbb60fbf90c4912492c748bca6638ccbcad399bd"
+    },
+    "41e2f65b34c978f4377b2f043fec28a61402962d" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFieldTest" : [ "testOne", "testZero" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testDoubleFormat", "testFormat", "testFormatImproper", "testFormatImproperNegative", "testFormatNegative", "testFormatZero", "testLongFormat", "testParse", "testParseBig", "testParseInteger", "testParseInvalid", "testParseInvalidDenominator", "testParseNegative", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testAbs", "testAdd", "testBigDecimalValue", "testCompareTo", "testConstructor", "testConstructorDouble", "testDigitLimitConstructor", "testDivide", "testDoubleConstructor", "testDoubleValue", "testDoubleValueForLargeNumeratorAndDenominator", "testEpsilonLimitConstructor", "testEqualsAndHashCode", "testFloatValue", "testFloatValueForLargeNumeratorAndDenominator", "testGetReducedFraction", "testGoldenRatio", "testIntValue", "testLongValue", "testMath340", "testMultiply", "testNegate", "testNegativeValueOverflow", "testPercentage", "testPositiveValueOverflow", "testPow", "testReciprocal", "testSerial", "testSubtract" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFormatTest" : [ "testDoubleFormat", "testFormat", "testFormatImproper", "testFormatImproperNegative", "testFormatNegative", "testFormatZero", "testLongFormat", "testParse", "testParseInteger", "testParseInvalid", "testParseInvalidDenominator", "testParseNegative", "testParseOne1", "testParseOne2", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative", "testParseZero1", "testParseZero2" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAbs", "testAdd", "testCompareTo", "testConstructor", "testConstructorDouble", "testDigitLimitConstructor", "testDivide", "testDoubleConstructor", "testDoubleValue", "testEpsilonLimitConstructor", "testEqualsAndHashCode", "testFloatValue", "testGetReducedFraction", "testGoldenRatio", "testIntValue", "testIntegerOverflow", "testLongValue", "testMath1261", "testMath835", "testMultiply", "testNegate", "testPercentage", "testReciprocal", "testSerial", "testSubtract", "testToString" ]
+      },
+      "predecessor" : "41e2f65b34c978f4377b2f043fec28a61402962d~1"
+    },
+    "ec826b0fc1ae6d731d3b848cf9f60f676c4bc261" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseInvalid", "testParseInvalidDenominator", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFormatTest" : [ "testDoubleFormat", "testFormat", "testFormatImproper", "testFormatImproperNegative", "testFormatNegative", "testFormatZero", "testLongFormat", "testParse", "testParseInteger", "testParseInvalid", "testParseInvalidDenominator", "testParseNegative", "testParseOne1", "testParseOne2", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative", "testParseZero1", "testParseZero2" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAbs", "testAdd", "testCompareTo", "testConstructor", "testConstructorDouble", "testDigitLimitConstructor", "testDivide", "testDoubleConstructor", "testDoubleValue", "testEpsilonLimitConstructor", "testEqualsAndHashCode", "testFloatValue", "testGetReducedFraction", "testGoldenRatio", "testIntValue", "testIntegerOverflow", "testLongValue", "testMath1261", "testMath835", "testMultiply", "testNegate", "testPercentage", "testReciprocal", "testSerial", "testSubtract", "testToString" ]
+      },
+      "predecessor" : "ec826b0fc1ae6d731d3b848cf9f60f676c4bc261~1"
+    },
+    "985d44fca746154042730c3b2743678f5df934ae" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseInvalid", "testParseInvalidDenominator", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testAdd", "testConstructor", "testDivide", "testGetReducedFraction", "testGoldenRatio", "testMath340", "testMultiply", "testNegativeValueOverflow", "testPercentage", "testPositiveValueOverflow", "testReciprocal", "testSubtract" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionFormatTest" : [ "testParseInvalid", "testParseInvalidDenominator", "testParseProper", "testParseProperInvalidMinus", "testParseProperNegative" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAdd", "testConstructor", "testDivide", "testGetReducedFraction", "testGoldenRatio", "testIntegerOverflow", "testMath1261", "testMultiply", "testNegate", "testSubtract" ]
+      },
+      "predecessor" : "985d44fca746154042730c3b2743678f5df934ae~1"
+    },
+    "b37c9f195f28f897eadadaf1f2df86bca0b8ce7c" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseBig" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testCompareTo", "testConstructor", "testDoubleValue", "testDoubleValueForLargeNumeratorAndDenominator", "testFloatValue", "testFloatValueForLargeNumeratorAndDenominator", "testPercentage" ]
+      },
+      "predecessor" : "985d44fca746154042730c3b2743678f5df934ae"
+    },
+    "ea52aa8cb3b0a9935ca0496aac482352b6e2c5ab" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAcos", "testAcosInf", "testAdd", "testAddInf", "testAddNaN", "testAsin", "testAsinInf", "testAtan", "testAtanI", "testAtanInf", "testConstructor", "testDivide", "testDivideImaginary", "testDivideInf", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNaN", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testExp", "testFloatingPointEquals", "testGetArgument", "testGetArgumentInf", "testGetArgumentNaN", "testHashCode", "testMath221", "testMultiply", "testMultiplyInfInf", "testMultiplyNaN", "testMultiplyNaNInf", "testNthRoot_cornercase_NAN_Inf", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testPowNaNBase", "testPowNaNExponent", "testReciprocalImaginary", "testReciprocalInf", "testReciprocalZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowInf", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSerial", "testSqrt1z", "testSqrt1zNaN", "testSubtract", "testSubtractInf", "testSubtractNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "b37c9f195f28f897eadadaf1f2df86bca0b8ce7c"
+    },
+    "70a1156a13a4520a5157eb5697795de7c881b921" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testComplexToImaginary", "testComplexToInterleaved" ]
+      },
+      "predecessor" : "70a1156a13a4520a5157eb5697795de7c881b921~1"
+    },
+    "9602e36b262f41036c3204b55f1addb91769573f" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAcos", "testAcosInf", "testAdd", "testAddInf", "testAddNaN", "testAsin", "testAsinInf", "testAtan", "testAtanI", "testAtanInf", "testConstructor", "testDivide", "testDivideImaginary", "testDivideInf", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNaN", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testExp", "testFloatingPointEquals", "testGetArgument", "testGetArgumentInf", "testGetArgumentNaN", "testHashCode", "testMath221", "testMultiply", "testMultiplyInfInf", "testMultiplyNaN", "testMultiplyNaNInf", "testNthRoot_cornercase_NAN_Inf", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testPowNaNBase", "testPowNaNExponent", "testReciprocalImaginary", "testReciprocalInf", "testReciprocalZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowInf", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSerial", "testSqrt1z", "testSqrt1zNaN", "testSubtract", "testSubtractInf", "testSubtractNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testComplexToImaginary", "testComplexToInterleaved", "testPolar2Complex" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseBig" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testCompareTo", "testConstructor", "testDoubleValue", "testDoubleValueForLargeNumeratorAndDenominator", "testFloatValue", "testFloatValueForLargeNumeratorAndDenominator", "testPercentage" ]
+      },
+      "predecessor" : "e2668df11371dee73f6f2d64e33faecf02f12306"
+    },
+    "e3399d1bab7065bdad7ebac80db184b5ef758808" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.ContinuedFractionTest" : [ "testGoldenRatio" ]
+      },
+      "predecessor" : "e3399d1bab7065bdad7ebac80db184b5ef758808~1"
+    },
+    "07bbda2fd6f19980f102d37601e61c06d2b98283" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAdd", "testConstructor", "testEqualsImaginaryDifference", "testEqualsRealDifference", "testHashCode" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testComplexToImaginary", "testComplexToInterleaved" ]
+      },
+      "predecessor" : "1eaba643f59be9ebd2907c670f6f6cd07bbfd3f9"
+    },
+    "b2df9248d8e2e36732a535d92b0ff629e47d1694" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsInfinite", "testAbsNaN", "testAcos", "testAcosInf", "testAsin", "testAsinInf", "testAtan", "testLog", "testLogInf", "testLogZero", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testPowNaNExponent", "testPowZero", "testScalarPow", "testScalarPowInf", "testScalarPowNaNExponent", "testScalarPowZero", "testSqrt1z", "testSqrtImaginaryNegative", "testSqrtImaginaryZero", "testSqrtInf", "testSqrtPolar", "testSqrtRealNegative", "testSqrtRealPositive", "testSqrtRealZero" ]
+      },
+      "predecessor" : "b2df9248d8e2e36732a535d92b0ff629e47d1694~1"
+    },
+    "f7e9300a0747d6ef3896a55179801bec27b1cfec" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.RegularizedGammaTest" : [ "testRegularizedGammaNanPositive", "testRegularizedGammaNegativePositive", "testRegularizedGammaPositiveNan", "testRegularizedGammaPositiveNegative", "testRegularizedGammaPositivePositive", "testRegularizedGammaPositiveZero", "testRegularizedGammaZeroPositive" ]
+      },
+      "predecessor" : "0c9f1cde2f639d537306e8cbe6d8dd54d0374720"
+    },
+    "871bb759cf15d887f11a5a7e7428bfba1cc4cafd" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.LogGammaTest" : [ "testLogGammaNan", "testLogGammaNegative", "testLogGammaPositive", "testLogGammaZero" ]
+      },
+      "predecessor" : "871bb759cf15d887f11a5a7e7428bfba1cc4cafd~1"
+    },
+    "f271063539ca219a94b37e60cdc0022ea65563e5" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.DigammaTest" : [ "testDigammaLargeArgs", "testDigammaNonRealArgs", "testDigammaSmallArgs" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.TrigammaTest" : [ "testTrigamma", "testTrigammaNonRealArgs" ]
+      },
+      "predecessor" : "f271063539ca219a94b37e60cdc0022ea65563e5~1"
+    },
+    "14f6f851b179249cb74b6dfa5b3c8d193e607186" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.DigammaTest" : [ "testDigammaLargeArgs", "testDigammaNonRealArgs", "testDigammaSmallArgs" ]
+      },
+      "predecessor" : "14f6f851b179249cb74b6dfa5b3c8d193e607186~1"
+    },
+    "5944675f3f3e00b462ee9b44c6f986a3cb65229b" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.GammaTest" : [ "testGamma", "testGammaNegativeDouble", "testGammaNegativeInteger" ]
+      },
+      "predecessor" : "14f6f851b179249cb74b6dfa5b3c8d193e607186"
+    },
+    "cad5798e0539f90155cca086b3cf6c8098f80fd8" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.RegularizedGammaTest" : [ "testRegularizedGammaNanPositive", "testRegularizedGammaNegativePositive", "testRegularizedGammaPositiveNan", "testRegularizedGammaPositiveNegative", "testRegularizedGammaPositivePositive", "testRegularizedGammaPositiveZero", "testRegularizedGammaZeroPositive" ]
+      },
+      "predecessor" : "cad5798e0539f90155cca086b3cf6c8098f80fd8~1"
+    },
+    "ef4ab32365ea7f5a0debb9f48734839b5ed00a86" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.DigammaTest" : [ "testDigammaLargeArgs", "testDigammaNonRealArgs", "testDigammaSmallArgs" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.GammaTest" : [ "testGamma", "testGammaNegativeDouble", "testGammaNegativeInteger" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.InvGamma1pm1Test" : [ "testInvGamma1pm1", "testInvGamma1pm1Precondition1", "testInvGamma1pm1Precondition2" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.LogGamma1pTest" : [ "testLogGamma1p", "testLogGamma1pPrecondition1", "testLogGamma1pPrecondition2" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.LogGammaTest" : [ "testLogGamma", "testLogGammaNan", "testLogGammaNegative", "testLogGammaPositive", "testLogGammaPrecondition1", "testLogGammaPrecondition2", "testLogGammaZero" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.RegularizedGammaTest" : [ "testRegularizedGammaNanPositive", "testRegularizedGammaNegativePositive", "testRegularizedGammaPositiveNan", "testRegularizedGammaPositiveNegative", "testRegularizedGammaPositivePositive", "testRegularizedGammaPositiveZero", "testRegularizedGammaZeroPositive" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.TrigammaTest" : [ "testTrigamma", "testTrigammaNonRealArgs" ]
+      },
+      "predecessor" : "ef4ab32365ea7f5a0debb9f48734839b5ed00a86~1"
+    },
+    "d79edb264f71db3e88779efe2681fa8c48310c3c" : {
+      "testcases" : {
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.GammaTest" : [ "testGamma", "testGammaNegativeDouble", "testGammaNegativeInteger" ]
+      },
+      "predecessor" : "d79edb264f71db3e88779efe2681fa8c48310c3c~1"
+    },
+    "6fd55c8cc6394c1ba77e81cab3dd60c29a14f581" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testConversionDegrees", "testConversionRadians", "testConversionTurns", "testEquals1", "testEquals2", "testEquals3", "testHashCode", "testNormalizeSimple1", "testNormalizeSimple2", "testNormalizeSimple3", "testNormalizeSimple4" ]
+      },
+      "predecessor" : "6fd55c8cc6394c1ba77e81cab3dd60c29a14f581~1"
+    },
+    "40fd2b4eb86b2f29e8141e08bd4f6338c79a4743" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testConversionDegrees", "testConversionRadians", "testConversionTurns" ]
+      },
+      "predecessor" : "c8e0a34f7be9fcef0c1c23ff58a548c12e800db0"
+    },
+    "45a7579e92befffaf70e2ae24a4036458da071bc" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testAcos", "testAcosInf", "testAdd", "testAddInf", "testAsin", "testAsinInf", "testAtan", "testConjugate", "testConstructor", "testCos", "testCosInf", "testCosh", "testCoshInf", "testDivide", "testDivideImaginary", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testExp", "testExpInf1", "testExpInf2", "testExpInf3", "testExpInf4", "testExpInf5", "testExpInf6", "testExpInf7", "testExpInf8", "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testGetArgument", "testHashCode", "testLog", "testLogZero", "testMath221", "testMultiply", "testNegate", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testReciprocal", "testReciprocalImaginary", "testReciprocalInf", "testReciprocalReal", "testReciprocalReciprocal", "testReciprocalZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSin", "testSinInf", "testSinh", "testSinhInf", "testSqrt1z", "testSqrtImaginaryNegative", "testSqrtImaginaryZero", "testSqrtPolar", "testSqrtRealNegative", "testSqrtRealPositive", "testSqrtRealZero", "testSubtract", "testSubtractInf", "testTan", "testTanCritical", "testTanh", "testTanhCritical" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInitialize", "testInterleavedToComplex", "testPolar2Complex", "testPolar2ComplexInf", "testPolar2ComplexNaN", "testRealToComplex", "testSplit2Complex" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots", "testGetNumberOfRoots1", "testGetNumberOfRoots2", "testGetRootPrecondition1", "testGetRootPrecondition2" ]
+      },
+      "predecessor" : "6b523a37f1984c0fd7cdc7946b41fce52c0be8cc"
+    },
+    "47e19ab375e512518fa25bb446e16fd5c64ac0a2" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.ContinuedFractionTest" : [ "testGoldenRatio" ]
+      },
+      "predecessor" : "45a7579e92befffaf70e2ae24a4036458da071bc"
+    },
+    "bc83d14fe2b7b4e86f6b01d37ce6b92bbf468916" : {
+      "testcases" : {
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.ContinuedFractionTest" : [ "testGoldenRatio" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfDifferenceTest" : [ "testTwoArgumentErf" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfTest" : [ "testErf1960", "testErf2576", "testErf2807", "testErf3291", "testErfGnu", "testLargeValues" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfcTest" : [ "testErfcGnu", "testErfcMaple" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.RegularizedBetaTest" : [ "testMath1067", "testRegularizedBetaPositivePositivePositive", "testRegularizedBetaTinyArgument", "testRegularizedBetaZeroPositivePositive" ]
+      },
+      "predecessor" : "bc83d14fe2b7b4e86f6b01d37ce6b92bbf468916~1"
+    },
+    "f1a8f907145d343c2ea161d76c32b05740c43742" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testAcos", "testAcosInf", "testAdd", "testAddInf", "testAsin", "testAsinInf", "testAtan", "testConjugate", "testConstructor", "testCos", "testCosInf", "testCosh", "testCoshInf", "testDivide", "testDivideImaginary", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testExp", "testExpInf1", "testExpInf2", "testExpInf3", "testExpInf4", "testExpInf5", "testExpInf6", "testExpInf7", "testExpInf8", "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testGetArgument", "testHashCode", "testLog", "testLogZero", "testMath221", "testMultiply", "testNegate", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testReciprocal", "testReciprocalImaginary", "testReciprocalInf", "testReciprocalReal", "testReciprocalReciprocal", "testReciprocalZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSin", "testSinInf", "testSinh", "testSinhInf", "testSqrt1z", "testSqrtImaginaryNegative", "testSqrtImaginaryZero", "testSqrtPolar", "testSqrtRealNegative", "testSqrtRealPositive", "testSqrtRealZero", "testSubtract", "testSubtractInf", "testTan", "testTanCritical", "testTanh", "testTanhCritical" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInitialize", "testInterleavedToComplex", "testPolar2Complex", "testPolar2ComplexInf", "testPolar2ComplexNaN", "testRealToComplex", "testSplit2Complex" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots", "testGetNumberOfRoots1", "testGetNumberOfRoots2", "testGetRootPrecondition1", "testGetRootPrecondition2" ]
+      },
+      "predecessor" : "bc83d14fe2b7b4e86f6b01d37ce6b92bbf468916"
+    },
+    "a6c54559c8609614bf55740885d176ddd60b11f7" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testAcos", "testAdd", "testAddInf", "testAsin", "testAsinInf", "testAtan", "testConjugate", "testConstructor", "testCos", "testCosInf", "testCosh", "testCoshInf", "testDivide", "testDivideImaginary", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testExp", "testExpInf1", "testExpInf2", "testExpInf3", "testExpInf4", "testExpInf5", "testExpInf6", "testExpInf7", "testExpInf8", "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testGetArgument", "testHashCode", "testLog", "testLogZero", "testMath221", "testMultiply", "testNegate", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testPow", "testPowInf", "testReciprocal", "testReciprocalImaginary", "testReciprocalInf", "testReciprocalReal", "testReciprocalReciprocal", "testReciprocalZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSin", "testSinInf", "testSinh", "testSinhInf", "testSqrt1z", "testSqrtImaginaryNegative", "testSqrtImaginaryZero", "testSqrtPolar", "testSqrtRealNegative", "testSqrtRealPositive", "testSqrtRealZero", "testSubtract", "testSubtractInf", "testTan", "testTanCritical", "testTanh", "testTanhCritical" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInitialize", "testInterleavedToComplex", "testPolar2Complex", "testPolar2ComplexInf", "testPolar2ComplexNaN", "testRealToComplex", "testSplit2Complex" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots", "testGetNumberOfRoots1", "testGetNumberOfRoots2", "testGetRootPrecondition1", "testGetRootPrecondition2" ]
+      },
+      "predecessor" : "91090df9869177582c327c6c7159e981a90efd70"
+    },
+    "48464a3cf57e8a62d97e8c8741cadad23406e4ea" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAcos" ]
+      },
+      "predecessor" : "48464a3cf57e8a62d97e8c8741cadad23406e4ea~1"
+    },
+    "6bf4d8b74d2b56d506bc5049dbd64a44cad40c31" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testCosh", "testSqrt1" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "6bf4d8b74d2b56d506bc5049dbd64a44cad40c31~1"
+    },
+    "ed75255890e78d9b7ee261f7daad9b3436c74e8e" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh" ]
+      },
+      "predecessor" : "ed75255890e78d9b7ee261f7daad9b3436c74e8e~1"
+    },
+    "a9437c90666ca8c3045f1d59de1b77e536addba6" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "a9437c90666ca8c3045f1d59de1b77e536addba6~1"
+    },
+    "387f4e09b58d6d374a557a02093df887a8e8ebf8" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testImplicitTrig" ]
+      },
+      "predecessor" : "387f4e09b58d6d374a557a02093df887a8e8ebf8~1"
+    },
+    "dc430844316a5b49f63363efb4d774e31f4eb3dc" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig", "testLog", "testSqrt1" ]
+      },
+      "predecessor" : "f0d1b9cdc279c5438a799d62b74effb7ece4958b"
+    },
+    "16322d83ab3092e93a1e2d7f576b185682c16f69" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig", "testLog", "testSqrt1", "testSqrt2" ]
+      },
+      "predecessor" : "16322d83ab3092e93a1e2d7f576b185682c16f69~1"
+    },
+    "fc70d935fdadc5d5a7862cf9a929da91b72b00d6" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testAdd", "testAddInf", "testConjugate", "testConjugateInfiinite", "testConjugateNaN", "testConstructor", "testConstructorNaN", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testGetArgument", "testHashCode", "testMultiply", "testMultiplyInfInf", "testNegate", "testNegateNaN", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testReciprocal", "testReciprocalImaginary", "testReciprocalNaN", "testReciprocalReal", "testReciprocalReciprocal", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar", "testSubtract", "testSubtractInf" ]
+      },
+      "predecessor" : "b15facf8a0f3fbc8c8e661f1e22ba25a3834563c"
+    },
+    "b2d226785278777545ed72b1c55146ea5de5b4b8" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testHashCode" ]
+      },
+      "predecessor" : "6caed745053368c11a4e2fccdf8108e7d7cc4a22"
+    },
+    "2e07396d80cdd9ee2d7c824bbd5e6b321234cbfa" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig", "testSqrt1", "testSqrt2" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar" ]
+      },
+      "predecessor" : "b2d226785278777545ed72b1c55146ea5de5b4b8"
+    },
+    "d011f8be2a166e49ebb496a254fff4d74060f818" : {
+      "testcases" : {
+        "commons-numbers-core?org.apache.commons.numbers.core.ArithmeticUtilsTest" : [ "testAddAndCheck", "testAddAndCheckLong", "testGcd", "testGcdLong", "testLcm", "testLcmLong", "testMulAndCheck", "testMulAndCheckLong", "testPowIntOverflow", "testPowLongOverflow", "testPowNegativeIntOverflow", "testPowNegativeLongOverflow", "testSubAndCheck", "testSubAndCheckErrorMessage", "testSubAndCheckLong" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.FractionTest" : [ "testAdd", "testDivide", "testSubtract" ]
+      },
+      "predecessor" : "d011f8be2a166e49ebb496a254fff4d74060f818~1"
+    },
+    "393cf6636de3bac72d09c60b900b2b124fa40e18" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAdd", "testAddInf", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testMultiply", "testMultiplyInfInf", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSubtract", "testSubtractInf" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "e1ac4ed5fa59459869121d287d70b0f97a1e7ff6"
+    },
+    "21d5060f71811799cf5ef64cd872a4f1dee74997" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testCosh", "testExp", "testImplicitTrig", "testLog", "testSinh", "testSqrt1", "testSqrt2", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInterleavedToComplex", "testPolar2Complex", "testRealToComplex", "testSplit2Complex" ]
+      },
+      "predecessor" : "393cf6636de3bac72d09c60b900b2b124fa40e18"
+    },
+    "2daea445e878c98fc0f0a5a90deb413813fdc8cf" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testImplicitTrig", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN" ]
+      },
+      "predecessor" : "21d5060f71811799cf5ef64cd872a4f1dee74997"
+    },
+    "5dbfebebe6a85d844abe0587404d7b3e70299229" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAtanh", "testImplicitTrig" ]
+      },
+      "predecessor" : "2daea445e878c98fc0f0a5a90deb413813fdc8cf"
+    },
+    "49ed2b81e8a086fd0a801ba2fa54a4f16827512f" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testImplicitTrig" ]
+      },
+      "predecessor" : "49ed2b81e8a086fd0a801ba2fa54a4f16827512f~1"
+    },
+    "2af72846f1b96315804a320f6fd95bcd5458a547" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testImplicitTrig", "testSqrt1", "testSqrt2" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar" ]
+      },
+      "predecessor" : "2af72846f1b96315804a320f6fd95bcd5458a547~1"
+    },
+    "5de033d1b793e6260767609e735105013be6c0d7" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN" ]
+      },
+      "predecessor" : "5de033d1b793e6260767609e735105013be6c0d7~1"
+    },
+    "a4bee7004200d68afe8c6831b3eced555d98d8da" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAdd", "testAddInf", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testGetArgument", "testGetArgumentInf", "testGetArgumentNaN", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSubtract", "testSubtractInf" ]
+      },
+      "predecessor" : "a4bee7004200d68afe8c6831b3eced555d98d8da~1"
+    },
+    "bcbfee1dc3026cf65e5c430bd01b0995e5e9da99" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testSqrt1z", "testSqrt1zNaN" ]
+      },
+      "predecessor" : "a4bee7004200d68afe8c6831b3eced555d98d8da"
+    },
+    "ac1975ce8826cc668823de2cd36d1fa612b301a7" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN" ]
+      },
+      "predecessor" : "ac1975ce8826cc668823de2cd36d1fa612b301a7~1"
+    },
+    "b077fd577c26357c9abde43f261c9029c8891ae9" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAdd", "testAddInf", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testMultiply", "testMultiplyInfInf", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSubtract", "testSubtractInf" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "b077fd577c26357c9abde43f261c9029c8891ae9~1"
+    },
+    "621aa33504611b6579adee71836e1fe43636d2cd" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testImplicitTrig", "testSqrt1", "testSqrt2" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar" ]
+      },
+      "predecessor" : "b077fd577c26357c9abde43f261c9029c8891ae9"
+    },
+    "ea2c1d79d8b482bed262541e813d037294e6b572" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots" ]
+      },
+      "predecessor" : "ea2c1d79d8b482bed262541e813d037294e6b572~1"
+    },
+    "2f1c0b5dc250b34c2e7d4a7844c76d67e5ce2b2e" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testCosh", "testExp", "testImplicitTrig", "testLog", "testSinh", "testSqrt1", "testSqrt2", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbsNaN", "testConjugateNaN", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testGetArgumentNaN", "testHashCode", "testNegateNaN", "testReciprocalNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2ComplexInf", "testPolar2ComplexNaN" ]
+      },
+      "predecessor" : "c4e612eda82314741bd69af912a29eb9bc9949dd"
+    },
+    "e2917811e634b1b7668d0e09d99ee82c7e1cf0a3" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots" ]
+      },
+      "predecessor" : "e2917811e634b1b7668d0e09d99ee82c7e1cf0a3~1"
+    },
+    "d7f354f0dcb945ecef5e0b664031631ba63c6cb5" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testCosh", "testExp", "testLog", "testSinh", "testSqrt2", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbsNaN", "testConjugateNaN", "testDivideNaN", "testDivideZero", "testDivideZeroZero", "testGetArgumentNaN", "testHashCode", "testNegateNaN", "testReciprocalNaN", "testScalarPowNaNBase", "testSqrt1zNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2ComplexInf", "testPolar2ComplexNaN" ]
+      },
+      "predecessor" : "e2917811e634b1b7668d0e09d99ee82c7e1cf0a3"
+    },
+    "2f23f3e17e0d1c0af516f0147de85d5c01cba45b" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testCosh", "testExp", "testImplicitTrig", "testLog", "testSinh", "testSqrt1", "testSqrt2", "testTanh" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testAbs", "testAbsNaN", "testAdd", "testAddInf", "testConjugate", "testConjugateInfiinite", "testConjugateNaN", "testConstructor", "testConstructorNaN", "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsClass", "testEqualsImaginaryDifference", "testEqualsNull", "testEqualsRealDifference", "testEqualsSame", "testEqualsTrue", "testFloatingPointEquals", "testFloatingPointEqualsNaN", "testFloatingPointEqualsPrecondition1", "testFloatingPointEqualsPrecondition2", "testFloatingPointEqualsWithAllowedDelta", "testFloatingPointEqualsWithAllowedDeltaNaN", "testFloatingPointEqualsWithRelativeTolerance", "testFloatingPointEqualsWithRelativeToleranceNaN", "testGetArgument", "testHashCode", "testMultiply", "testMultiplyInfInf", "testNegate", "testNegateNaN", "testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty", "testNthRoot_cornercase_thirdRoot_realPartZero", "testNthRoot_normal_fourthRoot", "testNthRoot_normal_thirdRoot", "testReciprocal", "testReciprocalImaginary", "testReciprocalNaN", "testReciprocalReal", "testReciprocalReciprocal", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN", "testSqrt1z", "testSqrt1zNaN", "testSqrtPolar", "testSubtract", "testSubtractInf" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInitialize", "testInterleavedToComplex", "testPolar2Complex", "testPolar2ComplexIllegalModulus", "testPolar2ComplexInf", "testPolar2ComplexNaN", "testRealToComplex", "testSplit2Complex" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots", "testGetNumberOfRoots1", "testGetNumberOfRoots2", "testGetRootPrecondition1", "testGetRootPrecondition2", "testPrecondition" ]
+      },
+      "predecessor" : "e06534c83e29d1ac47789860d2365ef3ff57e922"
+    },
+    "84821835de201e2fc90c5a362a9bd8fdfcb15079" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testMultiply", "testMultiplyInfInf", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testSqrt1z", "testSqrt1zNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "84821835de201e2fc90c5a362a9bd8fdfcb15079~1"
+    },
+    "8a1f45e1b7582c04b6296958cf191c59eedbc721" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAcos", "testAsinh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testMultiply", "testMultiplyInfInf", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testSqrt1z", "testSqrt1zNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testPolar2Complex" ]
+      },
+      "predecessor" : "8a1f45e1b7582c04b6296958cf191c59eedbc721~1"
+    },
+    "b769356edd2a31bef5475ec9df76c260a2c9155c" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero" ]
+      },
+      "predecessor" : "39f364a14e5a10727d182b1f15b0d52e0257075c"
+    },
+    "b2c947bb831898e6c0340f2e7e98361e7558ac8a" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexUtilsTest" : [ "testCExtract", "testComplexToImaginary", "testComplexToInterleaved", "testComplexToReal", "testExtractionMethods", "testImaginaryToComplex", "testInterleavedToComplex", "testRealToComplex", "testSplit2Complex" ]
+      },
+      "predecessor" : "b769356edd2a31bef5475ec9df76c260a2c9155c"
+    },
+    "588a8ddb52ed158fe26eefbeb81b2c7f76197c24" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero" ]
+      },
+      "predecessor" : "588a8ddb52ed158fe26eefbeb81b2c7f76197c24~1"
+    },
+    "fa5da2ab49420b3475d615b4ea14ae3dd04af854" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testNthRootCornercaseThirdRootImaginaryPartEmpty", "testNthRootCornercaseThirdRootRealPartZero", "testNthRootNormalFourthRoot", "testNthRootNormalThirdRoot" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.RootsOfUnityTest" : [ "testComputeRoots" ]
+      },
+      "predecessor" : "fa5da2ab49420b3475d615b4ea14ae3dd04af854~1"
+    },
+    "fcccb0ecfa5a855de8909c6644f19262845e8587" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.CStandardTest" : [ "testAtanh", "testImplicitTrig" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivide", "testDivideImaginary", "testDivideNaN", "testDivideNaNInf", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testScalarDivide", "testScalarDivideNaN", "testScalarDivideZero" ]
+      },
+      "predecessor" : "fcccb0ecfa5a855de8909c6644f19262845e8587~1"
+    },
+    "40418955926ced67c155cf03009a0f4b54c8440b" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testSqrtPolar" ]
+      },
+      "predecessor" : "65b5d844c4f1258dfac41fb595906854ca83a9be"
+    },
+    "9c6f77801265abe079b4054c3c90d55e956ee7cd" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testAccessors1", "testAccessors2", "testAccessors3", "testAddQuaternionQuaternion", "testConjugate", "testDotProductQuaternionQuaternion", "testIsPureQuaternion", "testIsUnitQuaternion", "testNorm", "testNormalize", "testNormalizeFail", "testObjectEquals", "testQuaternionEquals", "testQuaternionEquals2", "testScalarMultiplyDouble", "testSubtractQuaternionQuaternion", "testToString", "testWrongDimension" ]
+      },
+      "predecessor" : "7c8dc8ff351c76dd88231387c6db069cb4b9d000"
+    },
+    "e9e0164fbb9676034a6c3597d2e63d2505295346" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testParseFromToString", "testParseInvalidI", "testParseInvalidJ", "testParseInvalidK", "testParseInvalidScalar", "testParseMissingEnd", "testParseMissingPart", "testParseMissingStart", "testParseSpecials" ]
+      },
+      "predecessor" : "9c6f77801265abe079b4054c3c90d55e956ee7cd"
+    },
+    "f4bafc24f3267340e00e39ee4983e349361bb4c0" : {
+      "testcases" : {
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testParse", "testParseInvalidIm", "testParseInvalidRe", "testParseMissingSeparator", "testParseSpaceAllowedAroundNumbers", "testParseWrongEnd", "testParseWrongStart" ],
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testMultiply", "testParseFromToString", "testParseInvalidI", "testParseInvalidJ", "testParseInvalidK", "testParseInvalidScalar", "testParseMissingEnd", "testParseMissingPart", "testParseMissingStart", "testParseSpecials", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive", "testToString" ]
+      },
+      "predecessor" : "e9e0164fbb9676034a6c3597d2e63d2505295346"
+    },
+    "cfa71fc12f6a48d1d37e7e389a025dc8cea971b6" : {
+      "testcases" : {
+        "commons-numbers-complex-streams?org.apache.commons.numbers.complex.streams.ComplexUtilsTest" : [ "testInitialize" ]
+      },
+      "predecessor" : "f4bafc24f3267340e00e39ee4983e349361bb4c0"
+    },
+    "1d872c64a5a410f07cd81e638002092704ff5af6" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testAccessors1", "testAccessors2", "testAccessors3", "testAddQuaternionQuaternion", "testConjugate", "testDotProductQuaternionQuaternion", "testHashCode", "testInverse", "testIsPureQuaternion", "testIsUnitQuaternion", "testMultiply", "testNorm", "testNormalize", "testNormalizeFail", "testObjectEquals", "testParseFromToString", "testParseInvalidI", "testParseInvalidJ", "testParseInvalidK", "testParseInvalidScalar", "testParseMissingEnd", "testParseMissingPart", "testParseMissingStart", "testParseSpecials", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive", "testQuaternionEquals", "testQuaternionEquals2", "testScalarMultiplyDouble", "testSubtractQuaternionQuaternion", "testToString", "testWrongDimension" ]
+      },
+      "predecessor" : "bd8d91cfe0cc15e0b695b00fcfc43d5d8b627aa4"
+    },
+    "50cf08d973fcf5956467a4936d3c25598d6576ce" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testInverse", "testIsUnitQuaternion", "testNorm", "testNormalize", "testNormalizeFail", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive" ]
+      },
+      "predecessor" : "50cf08d973fcf5956467a4936d3c25598d6576ce~1"
+    },
+    "d216fe76769afcd8d271ba39038251bb5b9a4659" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testAccessors1", "testAccessors2", "testAccessors3", "testAddQuaternionQuaternion", "testConjugate", "testDotProductQuaternionQuaternion", "testHashCode", "testInverse", "testIsPureQuaternion", "testIsUnitQuaternion", "testMultiply", "testNorm", "testNormalize", "testNormalizeFail", "testObjectEquals", "testParseFromToString", "testParseInvalidI", "testParseInvalidJ", "testParseInvalidK", "testParseInvalidScalar", "testParseMissingEnd", "testParseMissingPart", "testParseMissingStart", "testParseSpecials", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive", "testQuaternionEquals", "testQuaternionEquals2", "testScalarMultiplyDouble", "testSubtractQuaternionQuaternion", "testToString", "testWrongDimension" ]
+      },
+      "predecessor" : "d216fe76769afcd8d271ba39038251bb5b9a4659~1"
+    },
+    "11f5f1add25d6113e0888b2d1ea225d2d18d9588" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testEquals1", "testEquals2", "testEquals3", "testHashCode" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivideImaginary", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsImaginaryDifference", "testEqualsRealDifference", "testEqualsTrue", "testFloatingPointEquals", "testHashCode", "testParse", "testParseSpaceAllowedAroundNumbers", "testReciprocalImaginary", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN" ]
+      },
+      "predecessor" : "11f5f1add25d6113e0888b2d1ea225d2d18d9588~1"
+    },
+    "9186804d0fcc4b21d1ba4b974aa4275232df1bec" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testInversePositivePolarForm", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive" ]
+      },
+      "predecessor" : "9186804d0fcc4b21d1ba4b974aa4275232df1bec~1"
+    },
+    "bf1d61e51a1dc77cdf3b3e5ec855f70055a66ea6" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testInverseNormalized", "testInversePositivePolarForm", "testNormalize", "testNormalizeFail", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarPositive", "testUnitQuaternions" ]
+      },
+      "predecessor" : "bf1d61e51a1dc77cdf3b3e5ec855f70055a66ea6~1"
+    },
+    "9076074737bfc5bcbc64d675a084bea981261715" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testInverse", "testInverseNormalized", "testInversePositivePolarForm", "testIsUnit", "testNegateNormalized", "testNegatePositivePolarForm", "testNormalize", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarNegativeAndNormalized", "testPositivePolarFormWhenScalarPositive", "testPositivePolarFormWhenScalarPositiveAndNormalized", "testUnitQuaternions" ]
+      },
+      "predecessor" : "9076074737bfc5bcbc64d675a084bea981261715~1"
+    },
+    "3eedf4c2b0654f55d8cf02ca0a16124db4e9aef3" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testInverse", "testInverseNormalized", "testInversePositivePolarForm", "testInverse_nanNorm", "testInverse_negativeInfinityNorm", "testInverse_positiveInfinityNorm", "testInverse_zeroNorm", "testIsUnit", "testNegateNormalized", "testNegatePositivePolarForm", "testNormalize", "testNormalizeFail_nan", "testNormalizeFail_negativeInfinity", "testNormalizeFail_positiveInfinity", "testNormalizeFail_zero", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarNegativeAndNormalized", "testPositivePolarFormWhenScalarPositive", "testPositivePolarFormWhenScalarPositiveAndNormalized", "testUnitQuaternions" ]
+      },
+      "predecessor" : "3eedf4c2b0654f55d8cf02ca0a16124db4e9aef3~1"
+    },
+    "a9cd5d9c510a4323bb05f822be440526e3b5d068" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarNegativeAndNormalized", "testPositivePolarFormWhenScalarPositive", "testPositivePolarFormWhenScalarPositiveAndNormalized" ]
+      },
+      "predecessor" : "3eedf4c2b0654f55d8cf02ca0a16124db4e9aef3"
+    },
+    "6d2675bc4e8908c52a5447d63f7e3719c2cfebae" : {
+      "testcases" : {
+        "commons-numbers-core?org.apache.commons.numbers.core.PrecisionTest" : [ "testRoundDouble" ]
+      },
+      "predecessor" : "fd2fb49e14832ee28f361d558305a8886b15ad76"
+    },
+    "d0cff0d8f2a249e6c87df323fe635386749f62f4" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testHashCode" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionFormatTest" : [ "testParseBig" ],
+        "commons-numbers-fraction?org.apache.commons.numbers.fraction.BigFractionTest" : [ "testBigDecimalValue" ]
+      },
+      "predecessor" : "d0cff0d8f2a249e6c87df323fe635386749f62f4~1"
+    },
+    "e072c34ab57e1095c5e828e78f6305bc5dc787fe" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.SlerpTest" : [ "testSlerp_identicalInputs", "testSlerp_inputQuaternionsHaveMinusOneDotProduct", "testSlerp_linearAlgorithm", "testSlerp_linearAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_nonNormalizedInputs", "testSlerp_sphericalAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_tOutsideOfZeroToOne", "testVectorTransform_simple", "testVectorTransform_tOutsideOfZeroToOne_" ]
+      },
+      "predecessor" : "e072c34ab57e1095c5e828e78f6305bc5dc787fe~1"
+    },
+    "e29dff1e3adbab30d4041636de9d9e59649ec2b2" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testEquals1", "testEquals2", "testEquals3", "testHashCode" ],
+        "commons-numbers-complex?org.apache.commons.numbers.complex.ComplexTest" : [ "testDivideImaginary", "testDivideReal", "testDivideZero", "testDivideZeroZero", "testEqualsImaginaryDifference", "testEqualsRealDifference", "testEqualsTrue", "testFloatingPointEquals", "testHashCode", "testParse", "testParseSpaceAllowedAroundNumbers", "testReciprocalImaginary", "testScalarAdd", "testScalarAddInf", "testScalarAddNaN", "testScalarDivide", "testScalarDivideNaN", "testScalarMultiply", "testScalarMultiplyInf", "testScalarMultiplyNaN", "testScalarPow", "testScalarPowNaNBase", "testScalarPowNaNExponent", "testScalarSubtract", "testScalarSubtractInf", "testScalarSubtractNaN" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfDifferenceTest" : [ "testTwoArgumentErf" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfTest" : [ "testErf0", "testErf1960", "testErf2576", "testErf2807", "testErf3291", "testErfGnu", "testLargeValues" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.ErfcTest" : [ "testErfcGnu", "testErfcMaple" ],
+        "commons-numbers-gamma?org.apache.commons.numbers.gamma.RegularizedGammaTest" : [ "testRegularizedGammaNanPositive", "testRegularizedGammaNegativePositive", "testRegularizedGammaPositiveNan", "testRegularizedGammaPositiveNegative", "testRegularizedGammaPositivePositive", "testRegularizedGammaPositiveZero", "testRegularizedGammaZeroPositive" ]
+      },
+      "predecessor" : "e072c34ab57e1095c5e828e78f6305bc5dc787fe"
+    },
+    "b67f72e30d651304c4669122039770f88f814868" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testDotProductQuaternionQuaternion" ],
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.SlerpTest" : [ "testSlerp_identicalInputs", "testSlerp_inputQuaternionsHaveMinusOneDotProduct", "testSlerp_linearAlgorithm", "testSlerp_linearAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_nonNormalizedInputs", "testSlerp_sphericalAlgorithm", "testSlerp_sphericalAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_tOutsideOfZeroToOne", "testVectorTransform_simple", "testVectorTransform_tOutsideOfZeroToOne_" ]
+      },
+      "predecessor" : "e29dff1e3adbab30d4041636de9d9e59649ec2b2"
+    },
+    "b18117ec0725d6087097e33fd3a8ef0f18347e28" : {
+      "testcases" : {
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.QuaternionTest" : [ "testAccessors1", "testAccessors2", "testAccessors3", "testAddQuaternionQuaternion", "testConjugate", "testDotProductQuaternionQuaternion", "testHashCode", "testInverse", "testInverseNormalized", "testInversePositivePolarForm", "testInverse_nanNorm", "testInverse_negativeInfinityNorm", "testInverse_positiveInfinityNorm", "testInverse_zeroNorm", "testIsPure", "testIsUnit", "testMultiply", "testNegate", "testNegateNormalized", "testNegatePositivePolarForm", "testNorm", "testNormalize", "testNormalizeFail_nan", "testNormalizeFail_negativeInfinity", "testNormalizeFail_positiveInfinity", "testNormalizeFail_zero", "testObjectEquals", "testParseFromToString", "testParseInvalidI", "testParseInvalidJ", "testParseInvalidK", "testParseInvalidScalar", "testParseMissingEnd", "testParseMissingPart", "testParseMissingStart", "testParseSpecials", "testPositivePolarFormWhenScalarNegative", "testPositivePolarFormWhenScalarNegativeAndNormalized", "testPositivePolarFormWhenScalarPositive", "testPositivePolarFormWhenScalarPositiveAndNormalized", "testQuaternionEquals", "testQuaternionEquals2", "testScalarMultiplyDouble", "testSubtractQuaternionQuaternion", "testToString", "testUnitQuaternions", "testWrongDimension", "testZeroQuaternion" ],
+        "commons-numbers-quaternion?org.apache.commons.numbers.quaternion.SlerpTest" : [ "testSlerp_identicalInputs", "testSlerp_inputQuaternionsHaveMinusOneDotProduct", "testSlerp_linearAlgorithm", "testSlerp_linearAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_nonNormalizedInputs", "testSlerp_sphericalAlgorithm", "testSlerp_sphericalAlgorithm_allOutputsAreInPositivePolarForm", "testSlerp_tOutsideOfZeroToOne", "testVectorTransform_simple", "testVectorTransform_tOutsideOfZeroToOne_" ]
+      },
+      "predecessor" : "b18117ec0725d6087097e33fd3a8ef0f18347e28~1"
+    },
+    "00b2b5621ed39141d81b92b3fa3ba96a4e54c1c1" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleRadiansTest" : [ "testNormalizeBetweenMinusPiAndPi1", "testNormalizeBetweenMinusPiAndPi2", "testNormalizeBetweenMinusPiAndPi3", "testNormalizeBetweenMinusPiAndPi4", "testNormalizeBetweenMinusPiAndPi_lowerBound", "testNormalizeBetweenMinusPiAndPi_upperBound", "testNormalizeBetweenZeroAndTwoPi1", "testNormalizeBetweenZeroAndTwoPi2", "testNormalizeBetweenZeroAndTwoPi3", "testNormalizeBetweenZeroAndTwoPi4", "testNormalizeBetweenZeroAndTwoPi_lowerBound", "testNormalizeBetweenZeroAndTwoPi_upperBound" ],
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testNormalizeAroundZero1", "testNormalizeAroundZero2", "testNormalizeAroundZero3", "testNormalizeAroundZero4", "testNormalizeUpperAndLowerBounds" ]
+      },
+      "predecessor" : "3d8301fecc030e19436e4f7289b1e01192f660dc"
+    },
+    "56cde56fdf5d5661cc8ccfd1d3928e9ca9b52b7d" : {
+      "testcases" : {
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleRadiansTest" : [ "testNormalizeBetweenMinusPiAndPi1", "testNormalizeBetweenMinusPiAndPi2", "testNormalizeBetweenMinusPiAndPi3", "testNormalizeBetweenMinusPiAndPi4", "testNormalizeBetweenMinusPiAndPi_lowerBound", "testNormalizeBetweenMinusPiAndPi_upperBound", "testNormalizeBetweenZeroAndTwoPi1", "testNormalizeBetweenZeroAndTwoPi2", "testNormalizeBetweenZeroAndTwoPi3", "testNormalizeBetweenZeroAndTwoPi4", "testNormalizeBetweenZeroAndTwoPi_lowerBound", "testNormalizeBetweenZeroAndTwoPi_upperBound" ],
+        "commons-numbers-angle?org.apache.commons.numbers.angle.PlaneAngleTest" : [ "testNormalizeAroundZero1", "testNormalizeAroundZero2", "testNormalizeAroundZero3", "testNormalizeAroundZero4", "testNormalizeUpperAndLowerBounds", "testNormalizeVeryCloseToBounds" ]
+      },
+      "predecessor" : "56cde56fdf5d5661cc8ccfd1d3928e9ca9b52b7d~1"
+    },
+    "1a217c3e156a057ec3c308107f41c8f661c24cfb" : {
+      "testcases" : {
+        "commons-numbers-primes?org.apache.commons.numbers.primes.PrimesTest" : [ "testIsPrime", "testNextPrime", "testPrimeFactors" ],
+        "commons-numbers-primes?org.apache.commons.numbers.primes.SmallPrimesTest" : [ "boundedTrialDivision_square", "boundedTrialDivision_twoDifferentFactors", "millerRabinPrimeTest_composites", "millerRabinPrimeTest_primes", "smallTrialDivision_BoundaryPrimes", "smallTrialDivision_largeComposite", "smallTrialDivision_noSmallPrimeFactors", "smallTrialDivision_oneFactor", "smallTrialDivision_repeatedFactors", "smallTrialDivision_smallComposite", "trialDivision_largeComposite", "trialDivision_oneSmallFactor", "trialDivision_repeatedFactors", "trialDivision_smallComposite", "trialDivision_veryLargeComposite" ]
+      },
+      "predecessor" : "56cde56fdf5d5661cc8ccfd1d3928e9ca9b52b7d"
+    },
+    "44f275ad7e8c562a9d613a8d29cb8f5d3366e152" : {
+      "testcases" : {
+        "commons-numbers-primes?org.apache.commons.numbers.primes.PrimesTest" : [ "testIsPrime", "testNextPrime" ],
+        "commons-numbers-primes?org.apache.commons.numbers.primes.SmallPrimesTest" : [ "millerRabinPrimeTest_composites", "millerRabinPrimeTest_primes" ]
+      },
+      "predecessor" : "44f275ad7e8c562a9d613a8d29cb8f5d3366e152~1"
+    }
+  },
+  "android" : false
+}

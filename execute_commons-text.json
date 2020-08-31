@@ -1,0 +1,1294 @@
+{
+  "url" : "https://github.com/apache/commons-text.git",
+  "versions" : {
+    "7cbefa01015156df13aa95f083191adb02f34e85" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.TestJaroWrinklerDistance" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull" ]
+      },
+      "predecessor" : "7cbefa01015156df13aa95f083191adb02f34e85~1"
+    },
+    "75cdc00afc674aca39a4fca4c1745d029da43648" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullStringLocale" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ]
+      },
+      "predecessor" : "1e7d2aa5057ad5e067ec9cd762ab8772546bc777"
+    },
+    "980791b69dc4cb1a639e835ea3b151d9d107ea7f" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale", "testMissingLocale" ],
+        "org.apache.commons.text.similarity.HammingDistanceTest" : [ "testHammingDistance", "testHammingDistance_nullLeftValue", "testHammingDistance_nullRightValue" ],
+        "org.apache.commons.text.similarity.JaroWrinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testConstructorWithNegativeThreshold", "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ]
+      },
+      "predecessor" : "75cdc00afc674aca39a4fca4c1745d029da43648"
+    },
+    "a5ac07106f25c0e359bb5782cf8eb16ce15aa0b8" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.JaroWrinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt" ]
+      },
+      "predecessor" : "548a7918ef57e2591c3d6aaa9bb3e42e17fa6cbe"
+    },
+    "b0b9d358cc44e8e52d0675abf49eaefac003a112" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale" ],
+        "org.apache.commons.text.similarity.JaroWrinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample", "testMissingMetric" ]
+      },
+      "predecessor" : "411e81f8de92779b29b76a34412a68b6fcfee664"
+    },
+    "0ecf9afc8473fae8537c76178b4044d85c2b743e" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testJavadocExample" ]
+      },
+      "predecessor" : "f2f24aa6f589401094f998cd27d677473d4ad4ac"
+    },
+    "734b777c09b6a637dbfa2eb341eeaa573dbe39bb" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "734b777c09b6a637dbfa2eb341eeaa573dbe39bb~1"
+    },
+    "1ccc7b3d1348cf3b981f0a8a4ee885a0a6e8c3f2" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "1ccc7b3d1348cf3b981f0a8a4ee885a0a6e8c3f2~1"
+    },
+    "aa293500080d6872b3ac653dcf74a50cf8223ae5" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "65852f808ce5b7d0652b479cc237e7531a7eb395"
+    },
+    "df7e7a7b0aba73a1bf09c41dbd32e913252a8707" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "df7e7a7b0aba73a1bf09c41dbd32e913252a8707~1"
+    },
+    "9a0cc85ad01dcf1f468736984cdd5dec0a7a3bf3" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "9a0cc85ad01dcf1f468736984cdd5dec0a7a3bf3~1"
+    },
+    "685f9a864d46cc526b14e3a7476465c49d991478" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "685f9a864d46cc526b14e3a7476465c49d991478~1"
+    },
+    "1f6c5daecded67a17c07371a564f74ef623b3f29" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "1f6c5daecded67a17c07371a564f74ef623b3f29~1"
+    },
+    "bbba0a327b7ad8873d176254ec2a550757911bda" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "bbba0a327b7ad8873d176254ec2a550757911bda~1"
+    },
+    "a942b4c02194a6f544f129e89e0f399d51c5c01a" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "a942b4c02194a6f544f129e89e0f399d51c5c01a~1"
+    },
+    "ed985cd51220e956f516acecf1039defd0141d34" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ],
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ]
+      },
+      "predecessor" : "ed985cd51220e956f516acecf1039defd0141d34~1"
+    },
+    "b1c7e564251e7a404aa3d021c282349150fd4061" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ],
+        "org.apache.commons.text.names.NameStringTest" : [ "testFlip" ]
+      },
+      "predecessor" : "b1c7e564251e7a404aa3d021c282349150fd4061~1"
+    },
+    "331f80bfcf0380fcc35a6d18a327aef4a9e844e4" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "331f80bfcf0380fcc35a6d18a327aef4a9e844e4~1"
+    },
+    "4310744eb62e735a39ff84840cd4eb41ae6eb5a6" : {
+      "testcases" : {
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ]
+      },
+      "predecessor" : "0e7aad06a4967bec1581b88cdf706bed32599d4c"
+    },
+    "1c6403353bad890d0338d7f2d50274c7d79e4a3b" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "4310744eb62e735a39ff84840cd4eb41ae6eb5a6"
+    },
+    "4bb5dddf5001745e890b4fcd7bd77404e462d7c7" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "4bb5dddf5001745e890b4fcd7bd77404e462d7c7~1"
+    },
+    "ddafb1fc1f459de6d3b16c683793830549210699" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "ddafb1fc1f459de6d3b16c683793830549210699~1"
+    },
+    "cd92a0eacc7c0f37fe2e52ea94eb41c522012f06" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "cd92a0eacc7c0f37fe2e52ea94eb41c522012f06~1"
+    },
+    "79a48781ccc3cec748fa6a650bbf0096e6e7ca7d" : {
+      "testcases" : {
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ]
+      },
+      "predecessor" : "c05e0251a0178f8544696e3d1451826b4d66cc40"
+    },
+    "9e84145b1ea2b873b73c8722230b511883623f92" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "testInputs" ]
+      },
+      "predecessor" : "9e84145b1ea2b873b73c8722230b511883623f92~1"
+    },
+    "a0db3fa8fa5ed0dfc84892334ac1ea13149ee620" : {
+      "testcases" : {
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "0443ecaa3e418131dd4642fc40f1cc5caaeb522a"
+    },
+    "6bbe66feb6d8dc69a0464085dd4117e6e23aa389" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ]
+      },
+      "predecessor" : "feeab27693c01a8789df89f9fad9a6f6edb9ccb5"
+    },
+    "bf86c1d139aff068c97fd949b8b68fdb0e784835" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ]
+      },
+      "predecessor" : "bf86c1d139aff068c97fd949b8b68fdb0e784835~1"
+    },
+    "c8a803c21cd53e431e90569233730e0dd4d025ba" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ]
+      },
+      "predecessor" : "930c07d6d7a165b1c16d2eaba702bc2074580899"
+    },
+    "6f24aa4568fb62777d515625cd0146d4c36d5a6c" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testToUtf16Escape" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ]
+      },
+      "predecessor" : "6f24aa4568fb62777d515625cd0146d4c36d5a6c~1"
+    },
+    "a408a7cfa9a436d84954003e6977abea1bf0a3cd" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ]
+      },
+      "predecessor" : "a408a7cfa9a436d84954003e6977abea1bf0a3cd~1"
+    },
+    "f6214db8c8452471051ad3540f2cc4b69d5f7ba6" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ],
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ],
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale" ],
+        "org.apache.commons.text.similarity.HammingDistanceTest" : [ "testHammingDistance", "testHammingDistance_nullLeftValue", "testHammingDistance_nullRightValue" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposArrays", "testBasicArrays", "testHtml40ExtendedArrays", "testISO8859Arrays", "testJavaCntrlCharsArrays" ]
+      },
+      "predecessor" : "f6214db8c8452471051ad3540f2cc4b69d5f7ba6~1"
+    },
+    "aca047e2ddbfed2208fd64d9429e3487c9b2c955" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ],
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposArrays", "testBasicArrays", "testHtml40ExtendedArrays", "testISO8859Arrays", "testJavaCntrlCharsArrays" ],
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testToUtf16Escape" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ],
+        "org.apache.commons.text.translate.OctalUnescaperTest" : [ "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeUnescaperTest" : [ "testLessThanFour", "testUPlus", "testUuuuu" ]
+      },
+      "predecessor" : "aca047e2ddbfed2208fd64d9429e3487c9b2c955~1"
+    },
+    "eb5e153fd119d7f5125f5142dd6627f5355eb15d" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "eb5e153fd119d7f5125f5142dd6627f5355eb15d~1"
+    },
+    "4c38c532e84f20b8367b01788cad7884a74a9ef6" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testHTML40_EXTENDED_ESCAPE", "testISO8859_1_ESCAPE" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ]
+      },
+      "predecessor" : "4c38c532e84f20b8367b01788cad7884a74a9ef6~1"
+    },
+    "c62c658f7eaf77a91d9c15deecb122719cb2c313" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat" ]
+      },
+      "predecessor" : "c62c658f7eaf77a91d9c15deecb122719cb2c313~1"
+    },
+    "7de03831b805f795041ce4f13d53a6330cd64904" : {
+      "testcases" : {
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ]
+      },
+      "predecessor" : "7de03831b805f795041ce4f13d53a6330cd64904~1"
+    },
+    "fed66c0f8976cd61e476bb7e633df659f74ea0e1" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ]
+      },
+      "predecessor" : "fed66c0f8976cd61e476bb7e633df659f74ea0e1~1"
+    },
+    "10b97cb5f9e9b599a72d6d165cec851533551567" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "10b97cb5f9e9b599a72d6d165cec851533551567~1"
+    },
+    "96a6438f4801a063e472f4f72412ad435a70be73" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.JaccardDistanceTest" : [ "testGettingJaccardDistance" ],
+        "org.apache.commons.text.similarity.JaccardSimilarityTest" : [ "testGettingJaccardSimilarity" ]
+      },
+      "predecessor" : "96a6438f4801a063e472f4f72412ad435a70be73~1"
+    },
+    "e3bb7f75a17e613fafa0b9c9a24439fbeda39c13" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ],
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ],
+        "org.apache.commons.text.names.HumanNameParserTest" : [ "shouldThrowNullPointerException_WhenNullIsParsed", "testInputs" ],
+        "org.apache.commons.text.names.NameStringTest" : [ "testChopWithRegexChopsEndOffNameStr", "testChopWithRegexChopsMiddleFromNameStr", "testChopWithRegexChopsStartOffNameStr", "testChopWithRegexReturnsChoppedSubstring", "testFlip" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale" ],
+        "org.apache.commons.text.similarity.HammingDistanceTest" : [ "testHammingDistance", "testHammingDistance_nullLeftValue", "testHammingDistance_nullRightValue" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testEquals", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposArrays", "testBasicArrays", "testHTML40_EXTENDED_ESCAPE", "testHtml40ExtendedArrays", "testISO8859Arrays", "testISO8859_1_ESCAPE", "testJavaCntrlCharsArrays" ],
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testToUtf16Escape" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ],
+        "org.apache.commons.text.translate.OctalUnescaperTest" : [ "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeUnescaperTest" : [ "testLessThanFour", "testUPlus", "testUuuuu" ]
+      },
+      "predecessor" : "e3bb7f75a17e613fafa0b9c9a24439fbeda39c13~1"
+    },
+    "a37bead303adb298f59f76389d5704bef6ff183d" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "53279c1237a8b503fbd39ea279e2ae216779d2ed"
+    },
+    "6b0ff8df40c1e65598ca43a62815c410095ecae1" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXml", "testEscapeXml10", "testEscapeXml11", "testEscapeXmlAllCharacters", "testEscapeXmlSupplementaryCharacters", "testLang313", "testLang708", "testLang720", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters" ]
+      },
+      "predecessor" : "6b0ff8df40c1e65598ca43a62815c410095ecae1~1"
+    },
+    "d51148f5b244a1cc45881ab8c786789540fef545" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeXSI" ]
+      },
+      "predecessor" : "6b0ff8df40c1e65598ca43a62815c410095ecae1"
+    },
+    "9d5e6d8914a9bef5accb422880166daccf8c5125" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "d51148f5b244a1cc45881ab8c786789540fef545"
+    },
+    "cdd0ee23e3c8bf33cf43a9c425e46db2cfc7eeea" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor" ]
+      },
+      "predecessor" : "9d5e6d8914a9bef5accb422880166daccf8c5125"
+    },
+    "98d62f36fc3dfba2693ddf5c301de15fe40320ee" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testLang708" ]
+      },
+      "predecessor" : "8010b3b19a5503fbf5f7080fc2ffbc505760209e"
+    },
+    "144ee0ecfcfa32e4a2618997f05eeb96b85d9cda" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat", "testBuiltInDateTimeFormat", "testBuiltInNumberFormat", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testOverriddenBuiltinFormat" ]
+      },
+      "predecessor" : "144ee0ecfcfa32e4a2618997f05eeb96b85d9cda~1"
+    },
+    "8d37111622aaa576198d081db7613eff8ba46724" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testWrap_StringInt", "testWrap_StringIntStringBoolean" ]
+      },
+      "predecessor" : "8d37111622aaa576198d081db7613eff8ba46724~1"
+    },
+    "0306d48d3c38a12563a850ed83adf0f9209670c2" : {
+      "testcases" : {
+        "org.apache.commons.text.StrBuilderTest" : [ "testToCharArray", "testToCharArrayIntInt" ]
+      },
+      "predecessor" : "0306d48d3c38a12563a850ed83adf0f9209670c2~1"
+    },
+    "2166def7473b98bf40522f48b84a80e962174b70" : {
+      "testcases" : {
+        "org.apache.commons.text.StrTokenizerTest" : [ "test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8" ]
+      },
+      "predecessor" : "2166def7473b98bf40522f48b84a80e962174b70~1"
+    },
+    "0e09bb82a9edc9553530f4755d4b69b282cb910c" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEqualsHashcode" ]
+      },
+      "predecessor" : "0e09bb82a9edc9553530f4755d4b69b282cb910c~1"
+    },
+    "322fe272311bedffe4c2f5275c816cc196a74890" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNullConstructor" ]
+      },
+      "predecessor" : "322fe272311bedffe4c2f5275c816cc196a74890~1"
+    },
+    "4c29a73b03f93eec9c8e2d47b8d4b65b7db9f136" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor" ]
+      },
+      "predecessor" : "4c29a73b03f93eec9c8e2d47b8d4b65b7db9f136~1"
+    },
+    "46bb20abc4bd2dd2afbf92eb5005158a281f0ba7" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testLongestCommonSubsequence" ]
+      },
+      "predecessor" : "46bb20abc4bd2dd2afbf92eb5005158a281f0ba7~1"
+    },
+    "288781eff3725fd55c1ddece95be9f22fddfd324" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLongestCommonSubsequenceApplyNullNull", "testGettingLongestCommonSubsequenceApplyNullString", "testGettingLongestCommonSubsequenceApplyStringNull", "testGettingLongestCommonSubsequenceNullNull", "testGettingLongestCommonSubsequenceNullString", "testGettingLongestCommonSubsequenceStringNull", "testLongestCommonSubsequence", "testLongestCommonSubsequenceApply" ]
+      },
+      "predecessor" : "288781eff3725fd55c1ddece95be9f22fddfd324~1"
+    },
+    "4263ce38d789622ec107f2d666586c8a8de219aa" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLogestCommonSubsequenceDistacne" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLongestCommonSubsequenceNullNull", "testGettingLongestCommonSubsequenceNullString", "testGettingLongestCommonSubsequenceStringNull", "testLongestCommonSubsequence", "testLongestCommonSubsequenceApply" ]
+      },
+      "predecessor" : "288781eff3725fd55c1ddece95be9f22fddfd324"
+    },
+    "7059ba3a4c746a867192d3d7044871e8d416b204" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ]
+      },
+      "predecessor" : "4263ce38d789622ec107f2d666586c8a8de219aa"
+    },
+    "336204ee586cc3404e0aa5d5c8b5b39919ed5e95" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ]
+      },
+      "predecessor" : "7059ba3a4c746a867192d3d7044871e8d416b204"
+    },
+    "0b1ca53b3e00e74364849a14372e4b3f57c2d3a0" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "08ac56a502adb0d274d02f9d97f394e4a5c5966e"
+    },
+    "afdc3cad348b113d9114a80b6a73c3ff7aecc0f9" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "0b1ca53b3e00e74364849a14372e4b3f57c2d3a0"
+    },
+    "ac536cda62397e5720e5c8cd1db7799680f7d5bc" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "ac536cda62397e5720e5c8cd1db7799680f7d5bc~1"
+    },
+    "1414ae2dd232bbac1a4ba115db5700a6395b8bec" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEqualsHashcode" ]
+      },
+      "predecessor" : "ac536cda62397e5720e5c8cd1db7799680f7d5bc"
+    },
+    "dba22a2f5b03d595c0d9ce681a1c3b2018a75f1d" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "dba22a2f5b03d595c0d9ce681a1c3b2018a75f1d~1"
+    },
+    "d3051739d9fc77890218a8dbebdc9560d12532a7" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeCsvString", "testEscapeCsvWriter", "testUnescapeCsvString", "testUnescapeCsvWriter" ],
+        "org.apache.commons.text.translate.SinglePassTranslatorTest" : [ "codePointsAreReturned", "indexIsValidated" ]
+      },
+      "predecessor" : "d3051739d9fc77890218a8dbebdc9560d12532a7~1"
+    },
+    "5bea132319fc7a3c13cb65edcddbec5d8d862159" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposArrays", "testBasicArrays", "testConstructorExists", "testHTML40_EXTENDED_ESCAPE", "testHtml40ExtendedArrays", "testISO8859Arrays", "testISO8859_1_ESCAPE", "testJavaCntrlCharsArrays" ]
+      },
+      "predecessor" : "d3051739d9fc77890218a8dbebdc9560d12532a7"
+    },
+    "ddd93aa6a36ff7483ac78e29f8b552cf5ae984a3" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testConstructorExists" ]
+      },
+      "predecessor" : "ddd93aa6a36ff7483ac78e29f8b552cf5ae984a3~1"
+    },
+    "bdfa83094669b649504695032cd2aac57e500592" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ]
+      },
+      "predecessor" : "bdfa83094669b649504695032cd2aac57e500592~1"
+    },
+    "ae4dc0820de1f848a3c85cfe41cf886bebea0680" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ]
+      },
+      "predecessor" : "ae4dc0820de1f848a3c85cfe41cf886bebea0680~1"
+    },
+    "c642c12fe24763ad30a67950955de8ea5cab2c80" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ]
+      },
+      "predecessor" : "c642c12fe24763ad30a67950955de8ea5cab2c80~1"
+    },
+    "5b5dced79238b559bf80dc74d2739539459feeaf" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testConstructor", "testLang911", "testUnescapeJava" ]
+      },
+      "predecessor" : "5b5dced79238b559bf80dc74d2739539459feeaf~1"
+    },
+    "5c46042505c0d8410777666cb125edbbec1ff769" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testEscapeXml10", "testEscapeXml11" ]
+      },
+      "predecessor" : "5b5dced79238b559bf80dc74d2739539459feeaf"
+    },
+    "629c0a7eea68f8b6d69f82df556a97b82a77ae89" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.StrTokenizerTest" : [ "testCSVSimple", "testCSVSimpleNeedsTrim", "testChaining", "testCloneReset", "testReset_charArray", "testTSV" ],
+        "org.apache.commons.text.beta.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.beta.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.beta.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.beta.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ]
+      },
+      "predecessor" : "165c8e60fbc9c6a54f2c516774af4258ca9d0f52"
+    },
+    "fb65bb67e345ccaa479c1172ae3b94baac9cb691" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.beta.FormattableUtilsTest" : [ "testAlternatePadCharAndEllipsis", "testAlternatePadCharacter", "testDefaultAppend", "testEllipsis", "testIllegalEllipsis" ]
+      },
+      "predecessor" : "fb65bb67e345ccaa479c1172ae3b94baac9cb691~1"
+    },
+    "cc4df476285fb580bcb98571663e07a4558e96e9" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.FormattableUtilsTest" : [ "testAlternatePadCharAndEllipsis", "testAlternatePadCharacter", "testDefaultAppend", "testEllipsis", "testIllegalEllipsis" ]
+      },
+      "predecessor" : "cc4df476285fb580bcb98571663e07a4558e96e9~1"
+    },
+    "c8c189a87798e31df0baf1f2c1db45a4822f6328" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.StrBuilderTest" : [ "testAsReader" ],
+        "org.apache.commons.text.beta.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ],
+        "org.apache.commons.text.beta.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "c8c189a87798e31df0baf1f2c1db45a4822f6328~1"
+    },
+    "72733aea2fa536d98804ee09358fa50ca9ce41a8" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.beta.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.beta.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.beta.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ],
+        "org.apache.commons.text.beta.translate.SinglePassTranslatorTest" : [ "indexIsValidated" ]
+      },
+      "predecessor" : "c8c189a87798e31df0baf1f2c1db45a4822f6328"
+    },
+    "6c19c2cca0127ca9ed1323ccca8ece2240c28d11" : {
+      "testcases" : {
+        "org.apache.commons.text.beta.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtml3Once", "testEscapeHtml4Once", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "6c19c2cca0127ca9ed1323ccca8ece2240c28d11~1"
+    },
+    "1035cd6de87ece49aa2fdd7faa23e004e5748daf" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ]
+      },
+      "predecessor" : "1035cd6de87ece49aa2fdd7faa23e004e5748daf~1"
+    },
+    "3e07584624c170cc703a673b2ec6ee49c57fba08" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeHiragana", "testEscapeHtmlHighUnicode", "testLang313", "testStandaloneAmphersand", "testUnescapeHtml4", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ]
+      },
+      "predecessor" : "1035cd6de87ece49aa2fdd7faa23e004e5748daf"
+    },
+    "e9273cd4bb3da622ed761c998a6fb6e731538e18" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "3e07584624c170cc703a673b2ec6ee49c57fba08"
+    },
+    "867c38f10665e78f5b2acfbb9d0dc8bfc1bd6fe6" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ]
+      },
+      "predecessor" : "a0077dd37dc112a83cb24eccab702202c2bc8a13"
+    },
+    "4bc51591fe9d482a7fdbb21373b51f3f70765bac" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testUnescapeHtml3", "testUnescapeHtml4" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testUnfinishedEntity" ]
+      },
+      "predecessor" : "4bc51591fe9d482a7fdbb21373b51f3f70765bac~1"
+    },
+    "3a641403fc496591f60c68d68cc28784a617e2c9" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat", "testBuiltInDateTimeFormat", "testBuiltInNumberFormat", "testEmbeddedPatternInChoice", "testEscapedBraces_LANG_948", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testOverriddenBuiltinFormat", "testSetFormatByArgumentIndexIsUnsupported", "testSetFormatIsUnsupported", "testSetFormatsByArgumentIndex", "testSetFormatsIsUnsupported" ]
+      },
+      "predecessor" : "4bc51591fe9d482a7fdbb21373b51f3f70765bac"
+    },
+    "fe20a173e01a0d73e75d0907fed3a371d34d0f8b" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ]
+      },
+      "predecessor" : "3a641403fc496591f60c68d68cc28784a617e2c9"
+    },
+    "43b249b200b5bd901094207461b22144e2c1b56d" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest" ]
+      },
+      "predecessor" : "fe20a173e01a0d73e75d0907fed3a371d34d0f8b"
+    },
+    "b0027e18d2e634e2a822962f6fbd3d296c82e722" : {
+      "testcases" : {
+        "org.apache.commons.text.StrTokenizerTest" : [ "testCSVEmpty", "testCSVSimple", "testCSVSimpleNeedsTrim", "testCloneNotSupportedException", "testCloneNull", "testCloneReset", "testTSV", "testTSVEmpty" ]
+      },
+      "predecessor" : "b0027e18d2e634e2a822962f6fbd3d296c82e722~1"
+    },
+    "0b8532b5bfcf8aedd303c2c0e97296a50d48fa1b" : {
+      "testcases" : {
+        "org.apache.commons.text.StrTokenizerTest" : [ "testCSVEmpty", "testCSVSimple", "testCSVSimpleNeedsTrim", "testCloneNotSupportedException", "testCloneNull", "testCloneReset", "testTSV", "testTSVEmpty" ]
+      },
+      "predecessor" : "0b8532b5bfcf8aedd303c2c0e97296a50d48fa1b~1"
+    },
+    "66cf58776ccc495f7710896b74060c15378cfac3" : {
+      "testcases" : {
+        "org.apache.commons.text.StrLookupTest" : [ "testSystemProperiesLookup", "testSystemPropertiesLookupReplacedProperties", "testSystemPropertiesLookupUpdatedProperty" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testLANG1055", "testStaticReplaceSystemProperties" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ]
+      },
+      "predecessor" : "0b8532b5bfcf8aedd303c2c0e97296a50d48fa1b"
+    },
+    "8d14206b94631e5c78a51e1a319c7e7ad06e890a" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testUsingRandom" ]
+      },
+      "predecessor" : "8d14206b94631e5c78a51e1a319c7e7ad06e890a~1"
+    },
+    "c72a24bc24f2650a71bee0418b2ee3609f297cdc" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testBadMaximumCodePoint", "testBadMinimumCodePoint", "testChangeOfFilter", "testInvalidLength", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSetLength", "testUsingRandom", "testWithinRange", "testZeroLength" ]
+      },
+      "predecessor" : "c72a24bc24f2650a71bee0418b2ee3609f297cdc~1"
+    },
+    "bd4cba26cff7d7d7fdb90727362e66f533f4b59f" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ]
+      },
+      "predecessor" : "bd4cba26cff7d7d7fdb90727362e66f533f4b59f~1"
+    },
+    "c0f7877b0e72b0b27fbd14c02da315e3247a2e95" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testContainsAllWords_StringString", "testInitials_String", "testInitials_String_charArray", "testSwapCase_String", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String", "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ]
+      },
+      "predecessor" : "c0f7877b0e72b0b27fbd14c02da315e3247a2e95~1"
+    },
+    "1dd427b46a6f13fdf92eab328aa79b77a0dbc0cb" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest" ],
+        "org.apache.commons.text.StrBuilderAppendInsertTest" : [ "testAppendNewLine", "testAppendln_Boolean", "testAppendln_CharArray", "testAppendln_CharArray_int_int", "testAppendln_FormattedString", "testAppendln_Object", "testAppendln_PrimitiveNumber", "testAppendln_StrBuilder", "testAppendln_StrBuilder_int_int", "testAppendln_String", "testAppendln_StringBuffer", "testAppendln_StringBuffer_int_int", "testAppendln_StringBuilder", "testAppendln_StringBuilder_int_int", "testAppendln_String_int_int" ]
+      },
+      "predecessor" : "c0f7877b0e72b0b27fbd14c02da315e3247a2e95"
+    },
+    "a611df552758f50700c6faf868d97b8c6f749de6" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString" ]
+      },
+      "predecessor" : "a611df552758f50700c6faf868d97b8c6f749de6~1"
+    },
+    "e3ea9dda89df37911876272f4ad0419c84f6fc50" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString" ]
+      },
+      "predecessor" : "e3ea9dda89df37911876272f4ad0419c84f6fc50~1"
+    },
+    "44847c52959d830c3fc941f9e3765d5e0facf786" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString" ]
+      },
+      "predecessor" : "44847c52959d830c3fc941f9e3765d5e0facf786~1"
+    },
+    "e9cafb51e900aa6d5cc9eafc1171bc0d8d83dea5" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testLANG673" ]
+      },
+      "predecessor" : "e9cafb51e900aa6d5cc9eafc1171bc0d8d83dea5~1"
+    },
+    "9615df734b6ee4633e45eb3d737a9f5f2dc07654" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testLANG673" ]
+      },
+      "predecessor" : "9615df734b6ee4633e45eb3d737a9f5f2dc07654~1"
+    },
+    "7324502096a1e7f02c510285aba087557dec0059" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testBadMaximumCodePoint", "testBadMinAndMax", "testBadMinimumCodePoint", "testChangeOfFilter", "testInvalidLength", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSetLength", "testUsingRandom", "testWithinRange", "testZeroLength" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testGetSetEscape", "testGetSetPrefix", "testGetSetSuffix", "testGetSetValueDelimiter", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testLANG673" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample", "testMissingMetric" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNullConstructor", "testNullVarargConstructor" ],
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ],
+        "org.apache.commons.text.translate.OctalUnescaperTest" : [ "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeUnescaperTest" : [ "testLessThanFour", "testUPlus", "testUuuuu" ]
+      },
+      "predecessor" : "9615df734b6ee4633e45eb3d737a9f5f2dc07654"
+    },
+    "18969d7d862264e3b5267ba170cf60645863ad19" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testSwapCase_String", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ]
+      },
+      "predecessor" : "18969d7d862264e3b5267ba170cf60645863ad19~1"
+    },
+    "ed55131f3679c12b53b45aae3000a7759dcfe4f0" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ]
+      },
+      "predecessor" : "ed55131f3679c12b53b45aae3000a7759dcfe4f0~1"
+    },
+    "1e06bd5f7b3ba52b261f116d4ab6e45d0dc429cd" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testLANG673" ]
+      },
+      "predecessor" : "ed55131f3679c12b53b45aae3000a7759dcfe4f0"
+    },
+    "9493dfb271c140ba9bbc0ace0ae0e89f4a8b7d4a" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ]
+      },
+      "predecessor" : "1e06bd5f7b3ba52b261f116d4ab6e45d0dc429cd"
+    },
+    "c9cfd335f314e61a6c7f56cae4a4f818ffa5d75b" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeCsvString", "testEscapeCsvWriter", "testUnescapeCsvString", "testUnescapeCsvWriter" ]
+      },
+      "predecessor" : "9493dfb271c140ba9bbc0ace0ae0e89f4a8b7d4a"
+    },
+    "8c94bb39451812304e79059a9274792edc98ddcb" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String" ]
+      },
+      "predecessor" : "5f498c0f4783d035bfeb77517731c948f8567b1e"
+    },
+    "2a9d97036ca7d06a032888d1e2718d0db0c20b59" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ]
+      },
+      "predecessor" : "65f5889f501f784264606f0e087fe8afb653c40d"
+    },
+    "2035ed14fc77342909a35c1b61b28e8be66f49e0" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "f2626183fcf7d92fd51be24da92f033c8c22f957"
+    },
+    "3fcc4e8586807424fff21ee1f55fc2779ae78524" : {
+      "testcases" : {
+        "org.apache.commons.text.StrBuilderTest" : [ "testAppendln" ]
+      },
+      "predecessor" : "3f49fe323581a50083ede0cc21e80b733b400ead"
+    },
+    "997a613477a170926f5e82d693cc5cf2f4d1e473" : {
+      "testcases" : {
+        "org.apache.commons.text.StrBuilderTest" : [ "testAppendStringBuilderNull" ]
+      },
+      "predecessor" : "997a613477a170926f5e82d693cc5cf2f4d1e473~1"
+    },
+    "25ec8d186b37b8d0a85a9c42d10a107966ce955d" : {
+      "testcases" : {
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ]
+      },
+      "predecessor" : "25ec8d186b37b8d0a85a9c42d10a107966ce955d~1"
+    },
+    "278f1e0fb553fc2d2d6f5563d9e61899776cd80d" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testInvalidLength", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSetLength", "testUsingRandom", "testWithinRange", "testZeroLength" ]
+      },
+      "predecessor" : "278f1e0fb553fc2d2d6f5563d9e61899776cd80d~1"
+    },
+    "2dfadf4f8b51ae65d1b1b1f17afa3387b908c31f" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ]
+      },
+      "predecessor" : "2dfadf4f8b51ae65d1b1b1f17afa3387b908c31f~1"
+    },
+    "c1aabc0172e86f4f28a0444afebda335d144b039" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "c1aabc0172e86f4f28a0444afebda335d144b039~1"
+    },
+    "b7ac42b27d0c0678a18c39b2929a21725aed6086" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ]
+      },
+      "predecessor" : "b7ac42b27d0c0678a18c39b2929a21725aed6086~1"
+    },
+    "f9177e204d608e7fa708d57fabf0029746f7774a" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testSelectFromList" ]
+      },
+      "predecessor" : "f9177e204d608e7fa708d57fabf0029746f7774a~1"
+    },
+    "beb0b4615a94420cc86595c1f060711dd999af91" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "df30bf96856287478f3a7dfa7f017ca175bdd352"
+    },
+    "3f5dfd4b1cc24fa31446a9ea5821cf267375e552" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ]
+      },
+      "predecessor" : "3f5dfd4b1cc24fa31446a9ea5821cf267375e552~1"
+    },
+    "ecaaf9040561fbc410ad0375050af07bf20ca7fe" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String" ]
+      },
+      "predecessor" : "3f5dfd4b1cc24fa31446a9ea5821cf267375e552"
+    },
+    "aaf4aba369ed0b97d17bc9343f763b0d099dbc2f" : {
+      "testcases" : {
+        "org.apache.commons.text.StrBuilderTest" : [ "testAppendCharBufferNull" ]
+      },
+      "predecessor" : "ecaaf9040561fbc410ad0375050af07bf20ca7fe"
+    },
+    "15c2e4b28686edf6f0807304367dba82ac3d359d" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testInitials_String", "testInitials_String_charArray" ]
+      },
+      "predecessor" : "15c2e4b28686edf6f0807304367dba82ac3d359d~1"
+    },
+    "998764ebe38113eb51e6850058ca01936625dd92" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "79ef3cdf1a931531774da378209772dfc743d84a"
+    },
+    "fb6d5935451397c561bd52cf1d483975f83b2c7b" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeFully_Text88", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testInitialsSurrogatePairs", "testInitials_String", "testInitials_String_charArray", "testUnCapitalize_Text88", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ]
+      },
+      "predecessor" : "fb6d5935451397c561bd52cf1d483975f83b2c7b~1"
+    },
+    "b578cb402adcc69c8c5079f80614203371925c7c" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeFully_Text88", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testInitialsSurrogatePairs", "testInitials_String", "testInitials_String_charArray", "testUnCapitalize_Text88", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ]
+      },
+      "predecessor" : "b578cb402adcc69c8c5079f80614203371925c7c~1"
+    },
+    "96e0bc16b827f23d4e0db67921ca4632f921986a" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ]
+      },
+      "predecessor" : "b578cb402adcc69c8c5079f80614203371925c7c"
+    },
+    "6f6b6365fb8265362bd16eaf795dac27f9c4864b" : {
+      "testcases" : {
+        "org.apache.commons.text.StrLookupTest" : [ "testResourceBundleLookup", "testResourceBundleLookup_nullMap" ]
+      },
+      "predecessor" : "6f6b6365fb8265362bd16eaf795dac27f9c4864b~1"
+    },
+    "8e4ff3f1d72baae5f18f799da77b92facbcd1edc" : {
+      "testcases" : {
+        "org.apache.commons.text.StrLookupTest" : [ "testResourceBundleLookup", "testResourceBundleLookup_nullMap" ]
+      },
+      "predecessor" : "6f6b6365fb8265362bd16eaf795dac27f9c4864b"
+    },
+    "0be254ad1483e67d452a74330b78f5896888c2df" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "testCreateConverterFromCharsAndEquals", "testCreateConverterFromCharsOne", "testCreateConverterFromCharsWithNullAndNull", "testCreateConverterFromMapAndEquals", "testDecodeReturningNull", "testEquals", "testEqualsWithNull", "testEqualsWithSameObject" ],
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ],
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testCreatesExtendedMessageFormatTakingString" ],
+        "org.apache.commons.text.FormattableUtilsTest" : [ "testSimplestFormat" ],
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateMinMaxLengthInvalidLength", "testGenerateMinMaxLengthMinGreaterThanMax", "testGenerateTakingIntThrowsNullPointerException", "testInvalidLength", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSelectFromCharArray", "testSelectFromCharVarargs", "testSetLength", "testUsingRandom", "testWithinMultipleRanges", "testWithinRange", "testZeroLength" ],
+        "org.apache.commons.text.StrBuilderTest" : [ "testAppendCharBufferException", "testAppendCharSequence", "testAppendStringBuilderNull", "testAppendTakingTwoAndThreeIntsThrowsStringIndexOutOfBoundsExceptionAndAppendTakingTwoAndThreeIntsThree", "testAppendTakingTwoAndThreeIntsWithZeroAndAppendTakingTwoAndThreeIntsThrowsStringIndexOutOfBoundsExceptionTwo" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull", "testReplaceInTakingStringBuilderWithNull", "testReplaceTakingCharSequenceReturningNull" ],
+        "org.apache.commons.text.StrTokenizerTest" : [ "testPreviousTokenAndSetEmptyTokenAsNull", "testStringTokenizerQuoteMatcher", "testStringTokenizerStrMatcher", "testStringTokenizerStringMatcher" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlThree", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeEcmaScript", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeJson", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeFully_Text88", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testInitialsSurrogatePairs", "testInitials_String", "testInitials_String_charArray", "testLANG673", "testSwapCase_String", "testUnCapitalize_Text88", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String" ],
+        "org.apache.commons.text.similarity.CosineSimilarityTest" : [ "testCosineSimilarityReturningDoubleWhereByteValueIsZero", "testCosineSimilarityThrowsIllegalArgumentException", "testCosineSimilarityWithNonEmptyMap", "testCosineSimilarityWithNull" ],
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetLocale" ],
+        "org.apache.commons.text.similarity.JaccardDistanceTest" : [ "testGettingJaccardDistance", "testGettingJaccardDistanceNullNull", "testGettingJaccardDistanceNullString", "testGettingJaccardDistanceStringNull" ],
+        "org.apache.commons.text.similarity.JaccardSimilarityTest" : [ "testGettingJaccardSimilarity", "testGettingJaccardSimilarityNullNull", "testGettingJaccardSimilarityNullString", "testGettingJaccardSimilarityStringNull" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testApplyThrowsIllegalArgumentExceptionAndCreatesLevenshteinDetailedDistanceTakingInteger", "testCreatesLevenshteinDetailedDistanceTakingInteger6", "testGetDefaultInstanceOne", "testGetDefaultInstanceTwo", "testGetThreshold" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinResultsTest" : [ "testEqualsDifferenceInSubstitutionCount", "testEqualsReturningFalse", "testEqualsSameObject", "testEqualsWithNonNull", "testEqualsWithNull" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLogestCommonSubsequenceDistacne" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLongestCommonSubsequenceNullNull", "testGettingLongestCommonSubsequenceNullString", "testGettingLongestCommonSubsequenceStringNull", "testLongestCommonSubsequence", "testLongestCommonSubsequenceApply" ],
+        "org.apache.commons.text.similarity.SimilarityScoreFromTest" : [ "testApply" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor", "testNullVarargConstructor" ],
+        "org.apache.commons.text.translate.CodePointTranslatorTest" : [ "testAboveReturningNonNull" ],
+        "org.apache.commons.text.translate.CsvTranslatorsTest" : [ "csvEscaperCRTest", "csvEscaperCommaTest", "csvEscaperLFTest", "csvEscaperPlaneTextTest", "csvEscaperQuoteTest", "csvUnEscaperPlaneTextTest", "csvUnEscaperTest1", "csvUnEscaperTest2", "csvUnEscaperTest3", "csvUnEscaperTest4" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testFailsToCreateLookupTranslatorThrowsInvalidParameterException", "testLang882" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testCreatesNumericEntityUnescaperOne", "testCreatesNumericEntityUnescaperTwo" ]
+      },
+      "predecessor" : "8e4ff3f1d72baae5f18f799da77b92facbcd1edc"
+    },
+    "50e0bec363468af6d35acad155f5a98f24d5a12c" : {
+      "testcases" : {
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ]
+      },
+      "predecessor" : "0be254ad1483e67d452a74330b78f5896888c2df"
+    },
+    "5598109efb2365384b9a9110323ed9a7004cc905" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testInvalidLength", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSelectFromCharArray", "testSelectFromCharVarargs", "testSetLength", "testUsingRandom", "testWithinMultipleRanges", "testWithinRange", "testZeroLength" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testSwapCase_String" ]
+      },
+      "predecessor" : "50e0bec363468af6d35acad155f5a98f24d5a12c"
+    },
+    "72304996d47b607090a0ec9be8c136b3a575b5ae" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlThree", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeEcmaScript", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeJson", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.CosineSimilarityTest" : [ "testCosineSimilarityReturningDoubleWhereByteValueIsZero", "testCosineSimilarityThrowsIllegalArgumentException", "testCosineSimilarityWithNonEmptyMap", "testCosineSimilarityWithNull" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testCreatesNumericEntityUnescaperOne" ]
+      },
+      "predecessor" : "72304996d47b607090a0ec9be8c136b3a575b5ae~1"
+    },
+    "2078a639561f8294b85ed187a28acd3b8f4348f2" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testSelectFromCharArray", "testSelectFromCharVarargs", "testSetLength", "testWithinMultipleRanges" ],
+        "org.apache.commons.text.similarity.JaccardDistanceTest" : [ "testGettingJaccardDistance" ],
+        "org.apache.commons.text.similarity.JaccardSimilarityTest" : [ "testGettingJaccardSimilarity" ],
+        "org.apache.commons.text.similarity.SimilarityScoreFromTest" : [ "testFailsToCreateSimilarityScoreFromThrowsIllegalArgumentException" ]
+      },
+      "predecessor" : "2078a639561f8294b85ed187a28acd3b8f4348f2~1"
+    },
+    "339566bbc2e7f45fad9cffb52e8049241e63ac45" : {
+      "testcases" : {
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength", "testWithinMultipleRanges" ]
+      },
+      "predecessor" : "2078a639561f8294b85ed187a28acd3b8f4348f2"
+    },
+    "a25aa337f08e8cd0baad1d70565552c7dad91d5b" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ]
+      },
+      "predecessor" : "339566bbc2e7f45fad9cffb52e8049241e63ac45"
+    },
+    "8613c3437d84d3cf19e4cf310c8d9ff89b4ceb73" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEmbeddedPatternInChoice", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats" ]
+      },
+      "predecessor" : "a25aa337f08e8cd0baad1d70565552c7dad91d5b"
+    },
+    "61cbf0afe04d86a546e7094513328c9f7a7363ae" : {
+      "testcases" : {
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testLANG1292", "testLANG673", "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ]
+      },
+      "predecessor" : "635cb80d1cb0d32fddfe86be75b0a30eb3d3fab7"
+    },
+    "dabd0846d0b14d7520e8659969a3ecf2db5b6997" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testCreatesExtendedMessageFormatTakingString", "testEqualsHashcode" ],
+        "org.apache.commons.text.StrBuilderTest" : [ "testCapacityAndLength" ]
+      },
+      "predecessor" : "dabd0846d0b14d7520e8659969a3ecf2db5b6997~1"
+    },
+    "17e5ee725a0e1478abf870ae9536fb69d085059b" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest" ],
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ],
+        "org.apache.commons.text.StrBuilderTest" : [ "testGetSetNewLineText", "testGetSetNullText" ],
+        "org.apache.commons.text.StrLookupTest" : [ "testMapLookup", "testMapLookup_nullMap", "testNoneLookup", "testResourceBundleLookup", "testResourceBundleLookup_nullMap", "testSystemProperiesLookup" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testReplaceEmpty", "testReplaceNoVariables", "testReplaceNull", "testReplaceWeirdPattens" ],
+        "org.apache.commons.text.StrTokenizerTest" : [ "testBasicEmpty2", "testBasicIgnoreTrimmed1", "testBasicIgnoreTrimmed2", "testBasicIgnoreTrimmed4", "testBasicQuoted2", "testBasicQuotedTrimmed1", "testBasicTrimmed1", "testBasicTrimmed2", "testCSVEmpty", "testCSVSimple", "testCSVSimpleNeedsTrim", "testCloneNull", "testGetContent", "testTSV", "testTSVEmpty" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeCsvString", "testEscapeEcmaScript", "testEscapeJava", "testEscapeJson", "testUnescapeCsvString", "testUnescapeJava" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForNullAndEmptyString", "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testInitials_String", "testInitials_String_charArray", "testSwapCase_String", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String", "testWrap_StringInt", "testWrap_StringIntStringBoolean" ]
+      },
+      "predecessor" : "17e5ee725a0e1478abf870ae9536fb69d085059b~1"
+    },
+    "51645b4f0653c2ceae59eba0b2ea09fd5f4b8c0f" : {
+      "testcases" : {
+        "org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemoverTest" : [ "testInvalidCharacters", "testValidCharacters" ]
+      },
+      "predecessor" : "51645b4f0653c2ceae59eba0b2ea09fd5f4b8c0f~1"
+    },
+    "8f7d0494d19a54b1606d0d7779ff4754c3d66b23" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "unicodeTest" ],
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ],
+        "org.apache.commons.text.translate.CodePointTranslatorTest" : [ "testAboveReturningNonNull" ]
+      },
+      "predecessor" : "8f7d0494d19a54b1606d0d7779ff4754c3d66b23~1"
+    },
+    "b8ab576f3609af0ba9079dbd6755e901724f1165" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testCreatesExtendedMessageFormatTakingString", "testEqualsHashcode" ]
+      },
+      "predecessor" : "b8ab576f3609af0ba9079dbd6755e901724f1165~1"
+    },
+    "804e4599bd63e4bb14c905613711eac8829e54fb" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLogestCommonSubsequenceDistacne" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLongestCommonSubsequenceNullNull", "testGettingLongestCommonSubsequenceNullString", "testGettingLongestCommonSubsequenceStringNull", "testLongestCommonSubsequence", "testLongestCommonSubsequenceApply" ],
+        "org.apache.commons.text.similarity.SimilarityScoreFromTest" : [ "testApply" ]
+      },
+      "predecessor" : "804e4599bd63e4bb14c905613711eac8829e54fb~1"
+    },
+    "c9f92a02f8c0ddfc8e8f30fadf2ac932072ae284" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlThree", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeEcmaScript", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeJson", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ]
+      },
+      "predecessor" : "c9f92a02f8c0ddfc8e8f30fadf2ac932072ae284~1"
+    },
+    "6665a02096fc56ad5a60943f65d6f75aea389cf7" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "unicodeTest" ],
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ],
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEqualsHashcode" ],
+        "org.apache.commons.text.StrBuilderTest" : [ "testLastIndexOf_StrMatcher_int", "testReadFromReadable", "testReadFromReadableAppendsToEnd" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testReplaceInVariable" ],
+        "org.apache.commons.text.StrTokenizerTest" : [ "test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8", "testStringTokenizerQuoteMatcher", "testStringTokenizerStrMatcher", "testStringTokenizerStringMatcher" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeHtmlHighUnicode" ],
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testToUtf16Escape" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testCreatesNumericEntityUnescaperOne", "testCreatesNumericEntityUnescaperTwo" ]
+      },
+      "predecessor" : "c9f92a02f8c0ddfc8e8f30fadf2ac932072ae284"
+    },
+    "e55d0ac1c17a7fd71dbb4f65034c7b739be6a35a" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "binaryTest", "doNotEncodeTest", "hebrewTest", "javadocExampleTest", "testCreateConverterFromCharsAndEquals", "testCreateConverterFromCharsOne", "testCreateConverterFromMapAndEquals", "testDecodeReturningNull", "testEquals", "testEqualsWithNull", "testEqualsWithSameObject", "unicodeTest" ],
+        "org.apache.commons.text.CaseUtilsTest" : [ "testConstructor", "testToCamelCase" ],
+        "org.apache.commons.text.CharacterPredicatesTest" : [ "testArabicNumerals", "testAsciiAlphaNumerals", "testAsciiLetters", "testAsciiLowercaseLetters", "testAsciiUppercaseLetters", "testDigits", "testLetters" ],
+        "org.apache.commons.text.FormattableUtilsTest" : [ "testAlternatePadCharAndEllipsis", "testAlternatePadCharacter", "testDefaultAppend", "testEllipsis", "testSimplestFormat" ],
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testSelectFromCharArray", "testSelectFromCharVarargs", "testSetLength", "testUsingRandom", "testWithinMultipleRanges", "testWithinRange", "testZeroLength" ],
+        "org.apache.commons.text.StrBuilderAppendInsertTest" : [ "testAppendAll_Array", "testAppendAll_Collection", "testAppendAll_Iterator", "testAppendFixedWidthPadLeft", "testAppendFixedWidthPadLeft_int", "testAppendFixedWidthPadRight", "testAppendFixedWidthPadRight_int", "testAppendNewLine", "testAppendPadding", "testAppendSeparator_String", "testAppendSeparator_String_String", "testAppendSeparator_String_int", "testAppendSeparator_char", "testAppendSeparator_char_char", "testAppendSeparator_char_int", "testAppendWithNullText", "testAppendWithSeparatorsWithNullText", "testAppendWithSeparators_Array", "testAppendWithSeparators_Collection", "testAppendWithSeparators_Iterator", "testAppend_Boolean", "testAppend_CharArray", "testAppend_CharArray_int_int", "testAppend_FormattedString", "testAppend_Object", "testAppend_PrimitiveNumber", "testAppend_StrBuilder", "testAppend_StrBuilder_int_int", "testAppend_String", "testAppend_StringBuffer", "testAppend_StringBuffer_int_int", "testAppend_StringBuilder", "testAppend_StringBuilder_int_int", "testAppend_String_int_int", "testAppendln_Boolean", "testAppendln_CharArray", "testAppendln_CharArray_int_int", "testAppendln_FormattedString", "testAppendln_Object", "testAppendln_PrimitiveNumber", "testAppendln_StrBuilder", "testAppendln_StrBuilder_int_int", "testAppendln_String", "testAppendln_StringBuffer", "testAppendln_StringBuffer_int_int", "testAppendln_StringBuilder", "testAppendln_StringBuilder_int_int", "testAppendln_String_int_int", "testInsert", "testInsertWithNullText", "testLang299" ],
+        "org.apache.commons.text.StrMatcherTest" : [ "testCharMatcher_char", "testCharSetMatcher_String", "testCharSetMatcher_charArray", "testCommaMatcher", "testDoubleQuoteMatcher", "testMatcherIndices", "testNoneMatcher", "testQuoteMatcher", "testSingleQuoteMatcher", "testSpaceMatcher", "testSplitMatcher", "testStringMatcher_String", "testTabMatcher", "testTrimMatcher" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testAbbreviateForLowerThanMinusOneValues", "testAbbreviateForLowerValue", "testAbbreviateForLowerValueAndAppendedString", "testAbbreviateForNullAndEmptyString", "testAbbreviateForUpperLimit", "testAbbreviateForUpperLimitAndAppendedString", "testAbbreviateUpperLessThanLowerValues", "testCapitalizeFullyWithDelimiters_String", "testCapitalizeFully_String", "testCapitalizeFully_Text88", "testCapitalizeWithDelimiters_String", "testCapitalize_String", "testConstructor", "testContainsAllWordsWithNull", "testContainsAllWords_StringString", "testInitialsSurrogatePairs", "testInitials_String", "testInitials_String_charArray", "testLANG673", "testSwapCase_String", "testUnCapitalize_Text88", "testUncapitalizeWithDelimiters_String", "testUncapitalize_String", "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ],
+        "org.apache.commons.text.diff.StringsComparatorTest" : [ "testExecution", "testLength", "testLongestCommonSubsequence" ],
+        "org.apache.commons.text.similarity.CosineDistanceTest" : [ "testCosineDistance" ],
+        "org.apache.commons.text.similarity.CosineSimilarityTest" : [ "testCosineSimilarityReturningDoubleWhereByteValueIsZero", "testCosineSimilarityWithNonEmptyMap" ],
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetLocale" ],
+        "org.apache.commons.text.similarity.HammingDistanceTest" : [ "testHammingDistance" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testCreatesLevenshteinDetailedDistanceTakingInteger6", "testEquals", "testGetDefaultInstanceOne", "testGetDefaultInstanceTwo", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testGetThreshold", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_StringString", "testGetLevenshteinDistance_StringStringInt", "testGetThresholdDirectlyAfterObjectInstantiation" ],
+        "org.apache.commons.text.similarity.LevenshteinResultsTest" : [ "testEqualsDifferenceInSubstitutionCount", "testEqualsReturningFalse", "testEqualsSameObject", "testEqualsWithNonNull", "testEqualsWithNull" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLogestCommonSubsequenceDistacne" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testLogestCommonSubsequence", "testLongestCommonSubsequence", "testLongestCommonSubsequenceApply" ],
+        "org.apache.commons.text.similarity.SimilarityScoreFromTest" : [ "testApply" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull", "testNullConstructor", "testNullVarargConstructor" ],
+        "org.apache.commons.text.translate.CodePointTranslatorTest" : [ "testAboveReturningNonNull" ],
+        "org.apache.commons.text.translate.CsvTranslatorsTest" : [ "csvEscaperCRTest", "csvEscaperCommaTest", "csvEscaperLFTest", "csvEscaperPlaneTextTest", "csvEscaperQuoteTest", "csvUnEscaperPlaneTextTest", "csvUnEscaperTest1", "csvUnEscaperTest2", "csvUnEscaperTest3", "csvUnEscaperTest4" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.JavaUnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testToUtf16Escape" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testLang882" ],
+        "org.apache.commons.text.translate.NumericEntityEscaperTest" : [ "testAbove", "testBelow", "testBetween", "testSupplementary" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testCreatesNumericEntityUnescaperOne", "testCreatesNumericEntityUnescaperTwo", "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ],
+        "org.apache.commons.text.translate.OctalUnescaperTest" : [ "testBetween" ],
+        "org.apache.commons.text.translate.SinglePassTranslatorTest" : [ "codePointsAreReturned" ],
+        "org.apache.commons.text.translate.UnicodeEscaperTest" : [ "testAbove", "testBelow", "testBetween" ],
+        "org.apache.commons.text.translate.UnicodeUnescaperTest" : [ "testUPlus", "testUuuuu" ],
+        "org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemoverTest" : [ "testInvalidCharacters", "testValidCharacters" ]
+      },
+      "predecessor" : "e55d0ac1c17a7fd71dbb4f65034c7b739be6a35a~1"
+    },
+    "1596501e610bca7955969bb94fe6c6bad397e361" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEmbeddedPatternInChoice", "testEqualsHashcode", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFive", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionTwo", "testOverriddenBuiltinFormat" ]
+      },
+      "predecessor" : "1596501e610bca7955969bb94fe6c6bad397e361~1"
+    },
+    "aa789914536355f863c7a756684959e4eac67f91" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testChoiceQuoteJustBeforeBraceEnd_TEXT_106" ]
+      },
+      "predecessor" : "aa789914536355f863c7a756684959e4eac67f91~1"
+    },
+    "6313d401d1631884b6a4ae31f2714b066b62f629" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLogestCommonSubsequenceDistacne" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLongestCommonSubsequenceApplyNullNull", "testGettingLongestCommonSubsequenceApplyNullString", "testGettingLongestCommonSubsequenceApplyStringNull", "testLongestCommonSubsequenceApply" ],
+        "org.apache.commons.text.similarity.SimilarityScoreFromTest" : [ "testApply" ]
+      },
+      "predecessor" : "6313d401d1631884b6a4ae31f2714b066b62f629~1"
+    },
+    "3554c40a09288ba85313219c58e8084f3dcd885f" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testChoiceQuoteJustBeforeBraceEnd_TEXT_106" ]
+      },
+      "predecessor" : "3554c40a09288ba85313219c58e8084f3dcd885f~1"
+    },
+    "50c38d6c0eedc8f8a6530a7f19b3ca940bd25927" : {
+      "testcases" : {
+        "org.apache.commons.text.AlphabetConverterTest" : [ "testCreateConverterFromCharsAndEquals", "testCreateConverterFromCharsOne", "testCreateConverterFromCharsWithNullAndNull", "testEquals", "testEqualsWithSameObject" ],
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat", "testBuiltInDateTimeFormat", "testExtendedAndBuiltInFormats" ],
+        "org.apache.commons.text.FormattableUtilsTest" : [ "testAlternatePadCharAndEllipsis", "testAlternatePadCharacter", "testAppendWithNullFormatterAndIntsThrowsNullPointerException", "testDefaultAppend", "testEllipsis", "testIllegalEllipsis" ],
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testRemoveFilters", "testSetLength", "testWithinMultipleRanges" ],
+        "org.apache.commons.text.StrLookupTest" : [ "testMapLookup" ],
+        "org.apache.commons.text.StrTokenizerTest" : [ "testListArray", "testToString" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlThree", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeEcmaScript", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeJson", "testUnescapeJsonFoundBug_Issue_Text_100", "testUnescapeJsonFoundBug_Issue_Text_100_Fix", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.similarity.CosineSimilarityTest" : [ "testCosineSimilarityWithNonEmptyMap" ],
+        "org.apache.commons.text.similarity.LevenshteinResultsTest" : [ "testEqualsDifferenceInSubstitutionCount", "testEqualsReturningFalse", "testEqualsSameObject", "testEqualsWithNonNull", "testEqualsWithNull" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testFailsToCreateLookupTranslatorThrowsInvalidParameterException", "testLang882" ]
+      },
+      "predecessor" : "50c38d6c0eedc8f8a6530a7f19b3ca940bd25927~1"
+    },
+    "bbd9800a2d611700e1260ff82936c2fa3ec771bc" : {
+      "testcases" : {
+        "org.apache.commons.text.FormattableUtilsTest" : [ "testAlternatePadCharAndEllipsis", "testAlternatePadCharacter", "testAppendWithNullFormatterAndIntsThrowsNullPointerException", "testDefaultAppend", "testEllipsis", "testIllegalEllipsis" ]
+      },
+      "predecessor" : "bbd9800a2d611700e1260ff82936c2fa3ec771bc~1"
+    },
+    "ccfb4562b71c5abf4ddf5f761b56acc90bdc4af2" : {
+      "testcases" : {
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ],
+        "org.apache.commons.text.CharacterPredicatesTest" : [ "testLetters" ],
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testBuiltInChoiceFormat", "testBuiltInDateTimeFormat", "testBuiltInNumberFormat", "testCreatesExtendedMessageFormatTakingString", "testEmbeddedPatternInChoice", "testEqualsHashcode", "testEscapedBraces_LANG_948", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFive", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFour", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionOne", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionThree", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionTwo", "testOverriddenBuiltinFormat", "testSetFormatByArgumentIndexIsUnsupported", "testSetFormatIsUnsupported", "testSetFormatsByArgumentIndex", "testSetFormatsIsUnsupported" ],
+        "org.apache.commons.text.RandomStringGeneratorTest" : [ "testBadMinAndMax", "testChangeOfFilter", "testGenerateMinMaxLength", "testGenerateTakingIntThrowsNullPointerException", "testMultipleFilters", "testNoPrivateCharacters", "testSetLength" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeHtmlVersions", "testEscapeXml10", "testEscapeXml11", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeUnknownEntity" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testLANG1292", "testLANG673" ],
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale", "testMissingLocale" ],
+        "org.apache.commons.text.similarity.JaccardDistanceTest" : [ "testGettingJaccardDistanceNullNull", "testGettingJaccardDistanceNullString", "testGettingJaccardDistanceStringNull" ],
+        "org.apache.commons.text.similarity.JaccardSimilarityTest" : [ "testGettingJaccardSimilarityNullNull", "testGettingJaccardSimilarityNullString", "testGettingJaccardSimilarityStringNull" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testConstructorWithNegativeThreshold", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testConstructorWithNegativeThreshold", "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceDistanceTest" : [ "testGettingLongestCommonSubsequenceDistanceNullNull", "testGettingLongestCommonSubsequenceDistanceNullString", "testGettingLongestCommonSubsequenceDistanceStringNull" ],
+        "org.apache.commons.text.similarity.LongestCommonSubsequenceTest" : [ "testGettingLogestCommonSubsequenceNullNull", "testGettingLogestCommonSubsequenceNullString", "testGettingLogestCommonSubsequenceStringNull", "testGettingLongestCommonSubsequenceApplyNullNull", "testGettingLongestCommonSubsequenceApplyNullString", "testGettingLongestCommonSubsequenceApplyStringNull", "testGettingLongestCommonSubsequenceNullNull", "testGettingLongestCommonSubsequenceNullString", "testGettingLongestCommonSubsequenceStringNull" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNullConstructor", "testNullVarargConstructor" ]
+      },
+      "predecessor" : "ccfb4562b71c5abf4ddf5f761b56acc90bdc4af2~1"
+    },
+    "b647f0496d0548b8ce817e6504fc0e72af618bad" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testEmbeddedPatternInChoice", "testEqualsHashcode", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFive", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionTwo", "testOverriddenBuiltinFormat" ]
+      },
+      "predecessor" : "ccfb4562b71c5abf4ddf5f761b56acc90bdc4af2"
+    },
+    "a8824266fa5f37d9f0f9da0780af32be67d12910" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testDisableSubstitutionInValues", "testGetSetEscape", "testGetSetPrefix", "testGetSetSuffix", "testGetSetValueDelimiter", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull", "testReplaceInTakingStringBuilderWithNull", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceTakingCharSequenceReturningNull", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookup", "testLookupWithDefaultInterpolator" ],
+        "org.apache.commons.text.lookup.MapStringLookupTest" : [ "testOne" ]
+      },
+      "predecessor" : "59984cafab8d600627e4358186e145defa26d141"
+    },
+    "7017ea97f5aab09a28a3ab0db44be29c207c9ce6" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testReplaceInTakingStringBuilderWithNonNull" ],
+        "org.apache.commons.text.lookup.DateStringLookupTest" : [ "testDefault", "testFormat" ],
+        "org.apache.commons.text.lookup.EnvironmentVariableStringLookupTest" : [ "testOne" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookup", "testLookupWithDefaultInterpolator" ],
+        "org.apache.commons.text.lookup.JavaPlatformStringLookupTest" : [ "testVm" ],
+        "org.apache.commons.text.lookup.NullStringLookupTest" : [ "test" ],
+        "org.apache.commons.text.lookup.ResourceBundleStringLookupTest" : [ "testOne" ],
+        "org.apache.commons.text.lookup.SystemPropertyStringLookupTest" : [ "testUserName" ]
+      },
+      "predecessor" : "7017ea97f5aab09a28a3ab0db44be29c207c9ce6~1"
+    },
+    "6afbdc8a494047bac49080a26d1b60984c72f745" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testDisableSubstitutionInValues", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookup", "testLookupWithDefaultInterpolator" ]
+      },
+      "predecessor" : "7017ea97f5aab09a28a3ab0db44be29c207c9ce6"
+    },
+    "388fa72c18f12771aeb7621046fa4f5462d9af60" : {
+      "testcases" : {
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookupWithDefaultInterpolator" ],
+        "org.apache.commons.text.lookup.JavaPlatformStringLookupTest" : [ "testVm" ]
+      },
+      "predecessor" : "6afbdc8a494047bac49080a26d1b60984c72f745"
+    },
+    "1de362f43968de500c4ef5a80672b4efbb27ae49" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testCreatesStrSubstitutorTakingStrLookupAndCallsReplaceTakingTwoAndThreeInts", "testReplaceInTakingTwoAndThreeIntsReturningFalse" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookup", "testLookupWithDefaultInterpolator" ],
+        "org.apache.commons.text.lookup.MapStringLookupTest" : [ "testOne" ]
+      },
+      "predecessor" : "1de362f43968de500c4ef5a80672b4efbb27ae49~1"
+    },
+    "a99fbb826653be20f3c1629989bdad413916f53e" : {
+      "testcases" : {
+        "org.apache.commons.text.CaseUtilsTest" : [ "testToCamelCase" ],
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testEscapeHiragana", "testEscapeHtmlHighUnicode", "testLang313", "testStandaloneAmphersand", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters" ],
+        "org.apache.commons.text.WordUtilsTest" : [ "testLANG1292", "testWrap_StringInt", "testWrap_StringIntStringBoolean", "testWrap_StringIntStringBooleanString" ],
+        "org.apache.commons.text.translate.NumericEntityUnescaperTest" : [ "testCreatesNumericEntityUnescaperOne", "testCreatesNumericEntityUnescaperTwo", "testOutOfBounds", "testSupplementaryUnescaping", "testUnfinishedEntity" ]
+      },
+      "predecessor" : "a99fbb826653be20f3c1629989bdad413916f53e~1"
+    },
+    "788e7ef9c34dfbbcaf9bec074590e7e7d8a6024f" : {
+      "testcases" : {
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testDisableSubstitutionInValues", "testGetSetEscape", "testGetSetPrefix", "testGetSetSuffix", "testGetSetValueDelimiter", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull_deprecated", "testReplaceInTakingStringBuilderWithNull", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceTakingCharSequenceReturningNull_deprecated", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ]
+      },
+      "predecessor" : "788e7ef9c34dfbbcaf9bec074590e7e7d8a6024f~1"
+    },
+    "fc0dd578ccd92af9a0fee1908f1f05f1fe74d602" : {
+      "testcases" : {
+        "org.apache.commons.text.lookup.DateStringLookupTest" : [ "testDefault", "testFormat" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookupWithDefaultInterpolator" ]
+      },
+      "predecessor" : "788e7ef9c34dfbbcaf9bec074590e7e7d8a6024f"
+    },
+    "3e649a798f59cd07a6eb56de3f204ffddbab46dd" : {
+      "testcases" : {
+        "org.apache.commons.text.StringEscapeUtilsTest" : [ "testBuilder", "testConstructor", "testEscapeCsvString", "testEscapeCsvWriter", "testEscapeEcmaScript", "testEscapeHiragana", "testEscapeHtml3", "testEscapeHtml4", "testEscapeHtmlHighUnicode", "testEscapeHtmlThree", "testEscapeHtmlVersions", "testEscapeJava", "testEscapeJavaWithSlash", "testEscapeJson", "testEscapeXSI", "testEscapeXml10", "testEscapeXml11", "testLang313", "testLang708", "testLang911", "testStandaloneAmphersand", "testUnescapeCsvString", "testUnescapeCsvWriter", "testUnescapeEcmaScript", "testUnescapeHtml3", "testUnescapeHtml4", "testUnescapeJava", "testUnescapeJson", "testUnescapeJsonFoundBug_Issue_Text_100", "testUnescapeJsonFoundBug_Issue_Text_100_Fix", "testUnescapeUnknownEntity", "testUnescapeXmlSupplementaryCharacters", "testUnscapeXSI" ],
+        "org.apache.commons.text.translate.AggregateTranslatorTest" : [ "testNonNull" ],
+        "org.apache.commons.text.translate.EntityArraysTest" : [ "testAposMap", "testBasicMap", "testConstructorExists", "testForDuplicateDeclaredMapValuesAposMap", "testForDuplicateDeclaredMapValuesBasicMap", "testForDuplicateDeclaredMapValuesHtml40ExtendedMap", "testForDuplicateDeclaredMapValuesISO8859Map", "testForDuplicateDeclaredMapValuesJavaCtrlCharsMap", "testForDuplicatedDeclaredMapKeys", "testHtml40ExtendedMap", "testISO8859Map", "testJavaCntrlCharsMap" ],
+        "org.apache.commons.text.translate.LookupTranslatorTest" : [ "testBasicLookup", "testFailsToCreateLookupTranslatorThrowsInvalidParameterException", "testLang882" ]
+      },
+      "predecessor" : "3e649a798f59cd07a6eb56de3f204ffddbab46dd~1"
+    },
+    "4b67dd516dbb23b31d4b35d3f737f31de86a1cda" : {
+      "testcases" : {
+        "org.apache.commons.text.ExtendedMessageFormatTest" : [ "testChoiceQuoteJustBeforeBraceEnd_TEXT_106", "testEmbeddedPatternInChoice", "testEqualsHashcode", "testEscapedBraces_LANG_948", "testEscapedQuote_LANG_477", "testExtendedAndBuiltInFormats", "testExtendedFormats", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFive", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionFour", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionOne", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionThree", "testFailsToCreateExtendedMessageFormatTakingTwoArgumentsThrowsIllegalArgumentExceptionTwo", "testOverriddenBuiltinFormat" ],
+        "org.apache.commons.text.StrSubstitutorTest" : [ "testConstructorMapFull", "testConstructorMapPrefixSuffix", "testConstructorNoArgs", "testCyclicReplacement", "testDefaultValueDelimiters", "testDisableSubstitutionInValues", "testGetSetEscape", "testGetSetPrefix", "testGetSetSuffix", "testGetSetValueDelimiter", "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull", "testReplaceInTakingStringBuilderWithNull", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceTakingCharSequenceReturningNull", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ]
+      },
+      "predecessor" : "4b67dd516dbb23b31d4b35d3f737f31de86a1cda~1"
+    },
+    "978e2896dbaeeb24eaed566972a09b0653b39f2b" : {
+      "testcases" : {
+        "org.apache.commons.text.StringSubstitutorTest" : [ "testLANG1055", "testReplaceAdjacentAtEnd", "testReplaceAdjacentAtStart", "testReplaceChangedMap", "testReplaceComplexEscaping", "testReplaceEmpty", "testReplaceEmptyKeys", "testReplaceEscaping", "testReplaceInTakingStringBufferWithNonNull", "testReplaceInTakingStringBuilderWithNonNull", "testReplaceInTakingTwoAndThreeIntsReturningFalse", "testReplaceInVariable", "testReplaceInVariableDisabled", "testReplaceInVariableRecursive", "testReplaceIncompletePrefix", "testReplaceNoPrefixNoSuffix", "testReplaceNoPrefixSuffix", "testReplaceNoVariables", "testReplaceNull", "testReplacePartialString_noReplace", "testReplacePrefixNoSuffix", "testReplaceRecursive", "testReplaceSimple", "testReplaceSolo", "testReplaceSoloEscaping", "testReplaceToIdentical", "testReplaceUnknownKey", "testReplaceWeirdPattens", "testResolveVariable", "testSamePrefixAndSuffix", "testStaticReplace", "testStaticReplacePrefixSuffix", "testStaticReplaceSystemProperties", "testSubstituteDefaultProperties", "testSubstitutePreserveEscape" ],
+        "org.apache.commons.text.StringSubstitutorWithInterpolatorStringLookupTest" : [ "testMapAndSystemProperty", "testSystemProperty" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testApplyThrowsIllegalArgumentExceptionAndCreatesLevenshteinDetailedDistanceTakingInteger" ]
+      },
+      "predecessor" : "4b67dd516dbb23b31d4b35d3f737f31de86a1cda"
+    },
+    "6d8b511f2081117a3c07a5e54392b1948df79248" : {
+      "testcases" : {
+        "org.apache.commons.text.TextStringBuilderTest" : [ "testAsTokenizer" ]
+      },
+      "predecessor" : "978e2896dbaeeb24eaed566972a09b0653b39f2b"
+    },
+    "7b783fd1fe04347769ec7c1402992941c9076bea" : {
+      "testcases" : {
+        "org.apache.commons.text.StringSubstitutorWithInterpolatorStringLookupTest" : [ "testMapAndSystemProperty", "testSystemProperty" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookupWithDefaultInterpolator" ]
+      },
+      "predecessor" : "46cc64c14e7a38b0fa9bd08cf6c142e975982f72"
+    },
+    "145aa52ff2c928780e7adf33221d37bcce697e74" : {
+      "testcases" : {
+        "org.apache.commons.text.StrBuilderAppendInsertTest" : [ "testAppendln_FormattedString", "testAppendln_String" ],
+        "org.apache.commons.text.TextStringBuilderAppendInsertTest" : [ "testAppendln_FormattedString", "testAppendln_String" ]
+      },
+      "predecessor" : "145aa52ff2c928780e7adf33221d37bcce697e74~1"
+    },
+    "6e9107dc826cee43629af6a3857c98c90da18eba" : {
+      "testcases" : {
+        "org.apache.commons.text.lookup.LocalHostStringLookupTest" : [ "testAddress", "testCanonicalName", "testName" ]
+      },
+      "predecessor" : "145aa52ff2c928780e7adf33221d37bcce697e74"
+    },
+    "26a308f40f9026fb1f5cffb0f359270a5a3b345c" : {
+      "testcases" : {
+        "org.apache.commons.text.lookup.DateStringLookupTest" : [ "testDefault", "testFormat" ],
+        "org.apache.commons.text.lookup.InterpolatorStringLookupTest" : [ "testLookupWithDefaultInterpolator" ]
+      },
+      "predecessor" : "6e9107dc826cee43629af6a3857c98c90da18eba"
+    },
+    "ea1765e01ed3b269572b8ca6f1743c6b5ac71b37" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.HammingDistanceTest" : [ "testHammingDistance", "testHammingDistance_nullLeftValue", "testHammingDistance_nullRightValue" ],
+        "org.apache.commons.text.similarity.JaroWinklerDistanceTest" : [ "testGetJaroWinklerDistance_NullNull", "testGetJaroWinklerDistance_NullString", "testGetJaroWinklerDistance_StringNull", "testGetJaroWinklerDistance_StringString" ],
+        "org.apache.commons.text.similarity.LevenshteinDetailedDistanceTest" : [ "testApplyThrowsIllegalArgumentExceptionAndCreatesLevenshteinDetailedDistanceTakingInteger", "testApplyWithNull", "testCreatesLevenshteinDetailedDistanceTakingInteger6", "testEquals", "testGetDefaultInstanceOne", "testGetDefaultInstanceTwo", "testGetLevenshteinDetailedDistance_NullString", "testGetLevenshteinDetailedDistance_NullStringInt", "testGetLevenshteinDetailedDistance_StringNull", "testGetLevenshteinDetailedDistance_StringNullInt", "testGetLevenshteinDetailedDistance_StringString", "testGetLevenshteinDetailedDistance_StringStringInt", "testHashCode", "testToString" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testApplyThrowsIllegalArgumentExceptionAndCreatesLevenshteinDistanceTakingInteger", "testGetLevenshteinDistance_StringStringInt" ]
+      },
+      "predecessor" : "ea1765e01ed3b269572b8ca6f1743c6b5ac71b37~1"
+    },
+    "51e22754a685519b80fd16d5c24c43f1b73863e7" : {
+      "testcases" : {
+        "org.apache.commons.text.similarity.FuzzyScoreTest" : [ "testGetFuzzyScore", "testGetFuzzyScore_NullNullLocale", "testGetFuzzyScore_NullStringLocale", "testGetFuzzyScore_StringNullLocale" ],
+        "org.apache.commons.text.similarity.LevenshteinDistanceTest" : [ "testGetLevenshteinDistance_NullString", "testGetLevenshteinDistance_NullStringInt", "testGetLevenshteinDistance_StringNull", "testGetLevenshteinDistance_StringNullInt", "testGetLevenshteinDistance_StringString" ],
+        "org.apache.commons.text.similarity.StringMetricFromTest" : [ "testEquivalence", "testJavadocExample" ]
+      },
+      "predecessor" : "51e22754a685519b80fd16d5c24c43f1b73863e7~1"
+    }
+  },
+  "android" : false
+}

@@ -1,0 +1,11 @@
+{
+  "nonRunableReasons" : {
+    "cf800d6a52b186476e915a25f0015bf9582993bb" : "Buildfile does not exist.",
+    "589e639404c3f5f9187d7ca202aa4526c0c0bada" : "Buildfile does not exist.",
+    "999526c4d29eef932a443c70532eff168208446c" : "Version is not running.",
+    "90ce44f4f3ec629aeac2299539e94b6bf450877e" : "Version is not running.",
+    "a4fa7bbf0572d2ed22cb68e4ed5d12ce4e975a24" : "Version is not running.",
+    "d4b36d6811557c484336f1501e275e6e61526b4d" : "Version is not running.",
+    "8f774d68d9f54f38fa2a41cf1b105f0ba3c2afac" : "Version is not running."
+  }
+}

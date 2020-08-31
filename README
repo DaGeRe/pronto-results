@@ -1,0 +1,5 @@
+This folder contains, for every project:
+deps_$project.json - Static Selected Changes (i.e. Unit Tests where performance may have changed)
+execute_$project.json - Trace Induced Changes (i.e. Unit Tests where performance may have changed, selected with higher rigor)
+nonChanges_$project.json - Versions without any Change, e.g. because only misc-files have changed and not source files.
+nonRunning_$project.json - Versions that were not runnable, e.g. because they were not runnable with OpenJDK 8 or because they relied on SNAPSHOT versions not present anymore
