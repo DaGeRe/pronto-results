@@ -18,21 +18,21 @@
     },
     "684984971e95ac0dff142934323d02df77168126" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFilenameCaseSensitivity", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
         "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
       },
       "predecessor" : "7d3865ccc773905b3b94790cf134e6ca2c5b217c"
     },
     "854c658ecfb665c8483abc5da4b2c86af9209c8a" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testIE5MacBug" ],
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testIE5MacBug" ],
         "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
       },
       "predecessor" : "854c658ecfb665c8483abc5da4b2c86af9209c8a~1"
     },
     "f7b349f374aa3227d21cce78c613d18bb6b535c4" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testFILEUPLOAD62", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
         "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
       },
       "predecessor" : "f7b349f374aa3227d21cce78c613d18bb6b535c4~1"
@@ -56,27 +56,25 @@
     },
     "b5eaca319aac8b84c688d028e0aae23aa5728727" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testContentCharSet" ],
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testBelowThreshold", "testContentCharSet" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ]
       },
       "predecessor" : "b5eaca319aac8b84c688d028e0aae23aa5728727~1"
     },
     "2cc89b70ab4fa0f01099e7c2a094ffed2eb84dd5" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ]
       },
-      "predecessor" : "b5eaca319aac8b84c688d028e0aae23aa5728727"
+      "predecessor" : "2ce4038d2507be2d6d516b600b29f4635750cb6e"
     },
     "d6564565bd5d242b88759c5736f923e062114f42" : {
       "testcases" : {
+        "org.apache.commons.fileupload.MultipartStreamTest" : [ "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ]
       },
       "predecessor" : "d6564565bd5d242b88759c5736f923e062114f42~1"
     },
@@ -89,6 +87,15 @@
       },
       "predecessor" : "555886cc53566c6dd510a0a55e3a0f8c839d3ac7"
     },
+    "36b974c21b213850ee5c387cfe446ef6773d3205" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.MultipartStreamTest" : [ "testThreeParamConstructor", "testTwoParamConstructor" ],
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
+      },
+      "predecessor" : "4f38de087e0af31bf348b811b24b7c28212a8429"
+    },
     "4811f86e9c07a178ff7015713b67bf1b71473420" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
@@ -99,17 +106,11 @@
     },
     "37b0b393899c3d4b280375834286d2306b69d3dc" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
         "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
         "org.apache.commons.fileupload.StreamingTest" : [ "testIOException" ]
       },
       "predecessor" : "37b0b393899c3d4b280375834286d2306b69d3dc~1"
-    },
-    "42c3044102508340b0b11f656f785b5f46cd0635" : {
-      "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository" ]
-      },
-      "predecessor" : "37b0b393899c3d4b280375834286d2306b69d3dc"
     },
     "488b8af3dbb15f0a9f5d247bf800399d598d8931" : {
       "testcases" : {
@@ -120,77 +121,104 @@
       },
       "predecessor" : "488b8af3dbb15f0a9f5d247bf800399d598d8931~1"
     },
+    "31847bf830c96c4b70fe7a229557965b8df818a0" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUploadException" ]
+      },
+      "predecessor" : "ea21657213f510bc24112e2f7ec8a9bdb0da1792"
+    },
     "9665f0efcc92d148e2acc4e274a1dd0ad50020e9" : {
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testParsing" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testIOException" ]
       },
       "predecessor" : "22528c59d58ef4a719dc16cf8db8e63068e86966"
     },
     "e20aab8330279c9d1b944c3ebd486d977a5cc22a" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testContentCharSet", "testFileFieldConstruction", "testTextFieldConstruction" ],
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testBelowThreshold", "testContentCharSet", "testFileFieldConstruction", "testTextFieldConstruction" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "e20aab8330279c9d1b944c3ebd486d977a5cc22a~1"
     },
     "a0435956c0a2d2f75dab061ca436949bda45962e" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "a0435956c0a2d2f75dab061ca436949bda45962e~1"
     },
     "fc45d8d5a8a9e071c721aae119cae4f489adcc3d" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "fc45d8d5a8a9e071c721aae119cae4f489adcc3d~1"
     },
+    "e7a15dc732192c1875f7e79e97827f10ac970b4b" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload", "testFileUploadException" ]
+      },
+      "predecessor" : "fc45d8d5a8a9e071c721aae119cae4f489adcc3d"
+    },
     "888a315c15d09b2718dc8cdde639e2017f7a3d5b" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "e7a15dc732192c1875f7e79e97827f10ac970b4b"
     },
     "4d86e4451ed168e130030fcb39d85c3e6ea906f7" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "888a315c15d09b2718dc8cdde639e2017f7a3d5b"
+    },
+    "6d2bb3d15db61711b3ed7840e1d3900f4b1ad33a" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "6d2bb3d15db61711b3ed7840e1d3900f4b1ad33a~1"
     },
     "165dcf749dec14b59c8a08eeacc61422a10eed10" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException" ]
       },
       "predecessor" : "165dcf749dec14b59c8a08eeacc61422a10eed10~1"
+    },
+    "ca1da46ef685ba39e08647bd4ab7674b10c437ca" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "ca1da46ef685ba39e08647bd4ab7674b10c437ca~1"
     },
     "0a881844106e3b1be715b55d4b2766e599c50bd8" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException" ]
       },
       "predecessor" : "0a881844106e3b1be715b55d4b2766e599c50bd8~1"
     },
     "86b3a2f0cf5090a985f92ed04e2e280cf720674f" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException" ]
       },
       "predecessor" : "86b3a2f0cf5090a985f92ed04e2e280cf720674f~1"
     },
@@ -199,8 +227,8 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testFileFieldConstruction", "testTextFieldConstruction" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "86b3a2f0cf5090a985f92ed04e2e280cf720674f"
     },
@@ -216,8 +244,8 @@
     "9b294104bf817e3266f0be933d774c0f7e077a67" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "98d94e8c23a6eb7a059603f604ac80c2c97fb5c0"
     },
@@ -228,8 +256,8 @@
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "193a80e9c6cb0908bd2b88bdfb2232c744dfa246"
     },
@@ -240,16 +268,16 @@
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ]
       },
-      "predecessor" : "f7c9c7173595d3d86de89234c410f9a8559b1895"
+      "predecessor" : "1e5e6f3d32cc561170bc4c849219b96a62f408a0~1"
     },
     "d63b52d457be9459f69dc927bb51360bd6be8969" : {
       "testcases" : {
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "1e5e6f3d32cc561170bc4c849219b96a62f408a0"
     },
@@ -262,16 +290,23 @@
     "4f7b9964147524bcc0fd4adbf047087d4238fdea" : {
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testWithInvalidRequest", "testWithNullContentType" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
       },
       "predecessor" : "abb29f08629aa42ff44934c334de8cbc684a34ec"
+    },
+    "a1db4bac865a2d83fc3fdb1ff2c887e83fc4429d" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ]
+      },
+      "predecessor" : "a1db4bac865a2d83fc3fdb1ff2c887e83fc4429d~1"
     },
     "751ec22a576aac5a6ee96ee46d9fadbf645ed019" : {
       "testcases" : {
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "751ec22a576aac5a6ee96ee46d9fadbf645ed019~1"
     },
@@ -280,17 +315,18 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "57aa0bcd87193a1bd3a00f2e21427a4d33976cd2~1"
     },
     "40e0b3d0cc531ce73bdd2dfd8f0b5802165a01bf" : {
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
+        "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "40e0b3d0cc531ce73bdd2dfd8f0b5802165a01bf~1"
     },
@@ -317,16 +353,22 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "5a5fd3282be9637bac04a6982a742ead59e92759"
+    },
+    "09d16cfbd28660c3884a9ba62bf2cf6e716d497f" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "d71d7a789aa300a632bd9b292ddd70e19403f382"
     },
     "96f8f56556a8592bfed25c82acedeffc4872ac1f" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "09d16cfbd28660c3884a9ba62bf2cf6e716d497f"
     },
@@ -335,17 +377,29 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException" ]
       },
       "predecessor" : "96f8f56556a8592bfed25c82acedeffc4872ac1f"
+    },
+    "613118de2e7662d5ee4f13fc2b870ee03736d96d" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "eafce192d11dc959a87845062248aba6063fa4f1"
+    },
+    "6a9b4f4a47837f2a67f4ffe60779866c2fe4c4e8" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload", "testFileUploadException" ]
+      },
+      "predecessor" : "613118de2e7662d5ee4f13fc2b870ee03736d96d"
     },
     "502af61e26a62facafe9c261a1d00233e17c0563" : {
       "testcases" : {
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "6a9b4f4a47837f2a67f4ffe60779866c2fe4c4e8"
     },
@@ -354,8 +408,8 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload" ]
       },
       "predecessor" : "502af61e26a62facafe9c261a1d00233e17c0563"
     },
@@ -364,15 +418,16 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "651283e071de6230356af058afe0c0b78e8cb8b6"
     },
     "ef11497280b5e0575fa269f7262011de87e7e24c" : {
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUploadException" ]
       },
       "predecessor" : "ef11497280b5e0575fa269f7262011de87e7e24c~1"
     },
@@ -381,8 +436,8 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "92e9e16dfba00caecaacb6b0ef07120318226e8b~1"
     },
@@ -390,32 +445,32 @@
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testFileUpload139", "testParsing" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "3c3f9d7edfc6fd56ad1442dcd27eea208e565ce0~1"
     },
     "f3445b86e4264679b3af6f5a2c9597a4c27ad520" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "3c3f9d7edfc6fd56ad1442dcd27eea208e565ce0"
     },
     "b50acb3c1e506a2d7317ee17a7c48b289814de63" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "f3445b86e4264679b3af6f5a2c9597a4c27ad520"
     },
     "0bbb01efdef8eef813294da84c1bcaa685546d96" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "0bbb01efdef8eef813294da84c1bcaa685546d96~1"
     },
@@ -428,8 +483,8 @@
     "3cf0df9af5dc561781b14937e875869b453dcc84" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "c57a603661809c658d22737ff32fa226a405218a"
     },
@@ -438,30 +493,31 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "8861cb96002fd60b62d3d3fc8c61f4ddad70b114~1"
     },
     "61d02a17fa3e7f22936c1225c682f2e867bd37bc" : {
       "testcases" : {
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
       },
       "predecessor" : "61d02a17fa3e7f22936c1225c682f2e867bd37bc~1"
     },
     "5aef9e066044c01e24791fce7914cc192f21dc19" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "61d02a17fa3e7f22936c1225c682f2e867bd37bc"
     },
     "986ab780d7c60b6df53c5b9706c4ca6cdb5f64ca" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "5aef9e066044c01e24791fce7914cc192f21dc19"
     },
@@ -471,32 +527,32 @@
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "648a70602c793016cb5ca9f8055c1a8b296f7468"
     },
     "d44c714b4b4d3d89254dedfbec97115982423a8b" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
-      "predecessor" : "e59df2b620ecba40c9e55af4193fcc1f5cd4be6c"
+      "predecessor" : "2df4331719594c4cbad6cff610c54f30cb20a0cb"
     },
     "3207d439759d4d7ab6cf97f0c807efd89eaac85e" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "3207d439759d4d7ab6cf97f0c807efd89eaac85e~1"
     },
     "1cb84b28b57dcee09a06f08b7299f221f371d60e" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "3207d439759d4d7ab6cf97f0c807efd89eaac85e"
     },
@@ -504,16 +560,16 @@
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
-      "predecessor" : "076e8552ebf9294a4e5ddf27d7c684b1a2ef0e5f"
+      "predecessor" : "b8232ae15dc7cf49d098f121da7f52d3b25f08df"
     },
     "c8a7ee51467a248436eb41e02fbeb7a60e9c11bb" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "b6a633238ee4a0306aa1dde54e542b43fa5c50b5"
     },
@@ -521,8 +577,8 @@
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "c8a7ee51467a248436eb41e02fbeb7a60e9c11bb"
     },
@@ -530,8 +586,8 @@
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "947d6421823f710b055c2e2dc4e8761284dea952~1"
     },
@@ -545,16 +601,16 @@
       "testcases" : {
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "cc3ccac0f7c7dc6a566b703a820453326748dbe2"
     },
     "1269e0eaea9788aae35d7f6ea1898b9a2fc7a087" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "1269e0eaea9788aae35d7f6ea1898b9a2fc7a087~1"
     },
@@ -575,8 +631,8 @@
     "811b459475f77e5c723f9c04f1ad2a36f8a18626" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ]
       },
       "predecessor" : "419a7907c75172cf1de558417f632bc0cbdbf1ab"
     },
@@ -597,6 +653,7 @@
     "ab642b326e9694e0d2b322484d8589c1bc4911f9" : {
       "testcases" : {
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ],
         "org.apache.commons.fileupload.util.mime.MimeUtilityTestCase" : [ "decodeInvalidEncoding", "decodeIso88591Base64Encoded", "decodeIso88591Base64EncodedWithWhiteSpace" ]
       },
       "predecessor" : "d5335a0bda29a314f6f4e504fb496f97222efe13"
@@ -604,8 +661,8 @@
     "2b45d1e9b1e119259f55c8e24e7eb5ecb7e718f6" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "2b45d1e9b1e119259f55c8e24e7eb5ecb7e718f6~1"
     },
@@ -683,7 +740,7 @@
         "org.apache.commons.fileupload.util.mime.Base64DecoderTestCase" : [ "decodeWithInnerPad", "nonBase64Bytes", "rfc4648Section10Decode" ],
         "org.apache.commons.fileupload.util.mime.MimeUtilityTestCase" : [ "decodeInvalidEncoding", "decodeIso88591Base64Encoded", "decodeIso88591Base64EncodedWithWhiteSpace" ]
       },
-      "predecessor" : "28c4b9626a340a770a4ff02fa8536ff7877296f3~1"
+      "predecessor" : "a8cbf7aedbcc8807471dca4af9599cd4e0eb6ec9"
     },
     "2cd8c1dd4d9c2938e976efc007bf0543eff23a90" : {
       "testcases" : {
@@ -717,6 +774,12 @@
       },
       "predecessor" : "f9ccec2c44311e4131ac5afc58319aa7e974a158~1"
     },
+    "22ea472163c87c4564dcd80546e9445e36c53007" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "f9ccec2c44311e4131ac5afc58319aa7e974a158"
+    },
     "e555c84353b40bb04bfa073688d90ae438f09db4" : {
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testFileFieldConstruction", "testTextFieldConstruction" ],
@@ -731,39 +794,45 @@
       "testcases" : {
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold" ]
       },
-      "predecessor" : "e555c84353b40bb04bfa073688d90ae438f09db4"
+      "predecessor" : "8315d383fb4642a6b568ef88b06bb31d22eabe14"
     },
     "fb376924b7fe11f47251c55e78101d7fadcb6396" : {
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "fb376924b7fe11f47251c55e78101d7fadcb6396~1"
     },
     "601161286e2a51f2642160e6ed843929fd716e1e" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "fb376924b7fe11f47251c55e78101d7fadcb6396"
+    },
+    "401ba23732e9ae96c3e4797eb624d357cb9ae2d0" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "401ba23732e9ae96c3e4797eb624d357cb9ae2d0~1"
     },
     "c61ff05b3241cb14d989b67209e57aa71540417a" : {
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "c61ff05b3241cb14d989b67209e57aa71540417a~1"
     },
     "40588a4ec2f53c793ff9cf10a41e80f77d0469b5" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "40588a4ec2f53c793ff9cf10a41e80f77d0469b5~1"
     },
@@ -771,8 +840,8 @@
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testSmallBuffer", "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "40588a4ec2f53c793ff9cf10a41e80f77d0469b5"
     },
@@ -781,16 +850,16 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "8f1d39d0d8c8e52209864e4a1caf42d9614c0662"
     },
     "834bfb2b9239834891fba5bcbd95a133790f6c6a" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "8d6b20c1a34e380fd7f8ec3d02413063ab0c098b"
     },
@@ -799,32 +868,32 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.ParameterParserTest" : [ "fileUpload199", "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "834bfb2b9239834891fba5bcbd95a133790f6c6a"
     },
     "59618a4e4dccdd02cfaf0aa0493fbfbc525e5fb8" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "59618a4e4dccdd02cfaf0aa0493fbfbc525e5fb8~1"
     },
     "b4c91ec4e4a451201383040da7decd320486d7e7" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "b4c91ec4e4a451201383040da7decd320486d7e7~1"
     },
     "4787773f415fee5a84c413cd4925eb03f98fe4bb" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "4787773f415fee5a84c413cd4925eb03f98fe4bb~1"
     },
@@ -847,16 +916,16 @@
     "db08a67f11162bcc78b2aff6c855e21f16a8c688" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "db08a67f11162bcc78b2aff6c855e21f16a8c688~1"
     },
     "d2263ea3fa652a620d70a701b4883aa1ca4c38c5" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "db08a67f11162bcc78b2aff6c855e21f16a8c688"
     },
@@ -877,8 +946,8 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload" ]
       },
       "predecessor" : "7c28b13be7e4af455811480a4c32825113cdae71~1"
     },
@@ -887,8 +956,8 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload" ]
       },
       "predecessor" : "99492f85ca7849d4c20e1f7f816c67f365fb5568~1"
     },
@@ -925,26 +994,26 @@
     "7cd5c8b97bee59b7084cd7ac282990fcd4b75661" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "7cd5c8b97bee59b7084cd7ac282990fcd4b75661~1"
     },
     "5b4881d7f75f439326f54fa554a9ca7de6d60814" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "5b4881d7f75f439326f54fa554a9ca7de6d60814~1"
     },
     "b885a08770bcdc946f302e150106c230367bc2f3" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
-        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "5b4881d7f75f439326f54fa554a9ca7de6d60814"
     },
@@ -953,16 +1022,16 @@
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload" ]
       },
       "predecessor" : "b885a08770bcdc946f302e150106c230367bc2f3"
     },
     "415f5ace7dd37404881d02c7224a376176a3409f" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testContentTypeAttachment", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "4f9f4f82ac48009e48619f36398edfd522502cf2"
     },
@@ -970,38 +1039,46 @@
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUploadException" ]
       },
       "predecessor" : "415f5ace7dd37404881d02c7224a376176a3409f"
     },
     "aff9622ce2b96878abe9b0b5ed7cadda3071886c" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testContentTypeAttachment", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "013e5affdf8f1f38c0d45f2e15537a83efbdd70a"
+    },
+    "21cac6de33d3e66363f6ac5ee3ddd6b3cb8291e0" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "9924ac60bdd9d3c6a426db254948c04b6282f97a"
     },
     "774ef160d591b579f703c694002e080f99bcd28b" : {
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testSmallBuffer", "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testContentTypeAttachment", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "21cac6de33d3e66363f6ac5ee3ddd6b3cb8291e0"
     },
     "02f6b2c4ef9aebf9cf8e55de8b90e73430b69385" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testInvalidRepository", "testInvalidRepositoryWithNullChar" ]
+        "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testInvalidRepository", "testInvalidRepositoryWithNullChar" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
       },
       "predecessor" : "02f6b2c4ef9aebf9cf8e55de8b90e73430b69385~1"
     },
     "d7a7b613373789fa6c3015457f1a15c7c5efd84d" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "02f6b2c4ef9aebf9cf8e55de8b90e73430b69385"
     },
@@ -1010,6 +1087,13 @@
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold", "testValidRepository" ]
       },
       "predecessor" : "d7a7b613373789fa6c3015457f1a15c7c5efd84d"
+    },
+    "414ae63a22b802a5cc177ec6c7b895b2d78e7ae9" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "aa9061772aed18572588f8b907861c0d0bd653c5"
     },
     "cdf7689ec5fc9c04dc3eeb508e35b4912d99ea52" : {
       "testcases" : {
@@ -1021,26 +1105,32 @@
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testSmallBuffer", "testThreeParamConstructor", "testTwoParamConstructor" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testContentTypeAttachment", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "afdedc9580dde03287979607f9ce441b23b6bc90~1"
     },
     "388e824518697c2c8f9f83fd964621d9c2f8fc4c" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testInvalidRepositoryWithNullChar" ],
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "parseParameterMap", "testEmptyFile", "testFILEUPLOAD62", "testFileUpload", "testFileUpload130", "testFilenameCaseSensitivity", "testFoldedHeaders", "testIE5MacBug" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "afdedc9580dde03287979607f9ce441b23b6bc90"
+    },
+    "ca7fc260f3da9c94b602d4cfa1abebb5e6fbec2c" : {
+      "testcases" : {
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "388e824518697c2c8f9f83fd964621d9c2f8fc4c"
     },
     "f8f529ee0baecc9262317cc5375af1eb42aadab4" : {
       "testcases" : {
         "org.apache.commons.fileupload.MultipartStreamTest" : [ "testSmallBuffer", "testThreeParamConstructor", "testTwoParamConstructor" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "ca7fc260f3da9c94b602d4cfa1abebb5e6fbec2c"
     },
@@ -1056,8 +1146,8 @@
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ],
         "org.apache.commons.fileupload.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
         "org.apache.commons.fileupload.servlet.ServletFileUploadTest" : [ "parseParameterMap" ]
       },
@@ -1065,9 +1155,12 @@
     },
     "180f6138b185a03ae1ee154b8048d67cf23af181" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository" ],
-        "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testBelowThreshold", "testThreshold", "testValidRepository" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ]
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
+        "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
       },
       "predecessor" : "2434446fbaff5ee8d90ec884e32e08aa75492841"
     },
@@ -1075,16 +1168,17 @@
       "testcases" : {
         "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testThreshold", "testValidRepository" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFileUploadException" ]
       },
       "predecessor" : "4242ff461ef2fd28a41b04946c0161f3d891da54~1"
     },
     "0e9fb5148345d2aaaeccfb8f56e63c3080a83676" : {
       "testcases" : {
-        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testBelowThreshold" ],
+        "org.apache.commons.fileupload.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testInvalidRepositoryWithNullChar" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ]
       },
       "predecessor" : "4242ff461ef2fd28a41b04946c0161f3d891da54"
     },
@@ -1101,8 +1195,8 @@
         "org.apache.commons.fileupload.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
         "org.apache.commons.fileupload.DiskFileUploadTest" : [ "testWithInvalidRequest", "testWithNullContentType" ],
         "org.apache.commons.fileupload.FileItemHeadersTest" : [ "testFileItemHeaders" ],
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ]
       },
       "predecessor" : "cae90facebc54803232a0593003914ca77193a73"
     },
@@ -1114,8 +1208,10 @@
     },
     "d7518ac9ecc80f5c6d4ed1324ec0becd81c320dd" : {
       "testcases" : {
-        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimitUnknownContentLength" ],
-        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testInvalidFileNameException" ]
+        "org.apache.commons.fileupload.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
       },
       "predecessor" : "41694d54cf4fc2d8db1d3cb2651e52ed72aab166"
     },
@@ -1128,18 +1224,148 @@
     "10d22ac91834cc61a7de41451be1d1f15e881733" : {
       "testcases" : {
         "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile", "testWithInvalidRequest", "testWithNullContentType" ],
-        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testMaxSizeLimit" ],
-        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
         "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
         "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
       },
       "predecessor" : "10d22ac91834cc61a7de41451be1d1f15e881733~1"
+    },
+    "4938b9cb50cb952483d12831e24a598e1fc787f3" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFileUpload" ]
+      },
+      "predecessor" : "10d22ac91834cc61a7de41451be1d1f15e881733"
     },
     "25a6612b77692c0c2bb4a22c796b0fd8054331d1" : {
       "testcases" : {
         "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ]
       },
       "predecessor" : "4938b9cb50cb952483d12831e24a598e1fc787f3"
+    },
+    "f4cab5702b6e7d6c019c9fec29357ad2b552783d" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold", "testFileFieldConstruction", "testTextFieldConstruction" ],
+        "org.apache.commons.fileupload2.DiskFileItemSerializeTest" : [ "testAboveThreshold", "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "25a6612b77692c0c2bb4a22c796b0fd8054331d1"
+    },
+    "de1a19730600bd295a9f2c5c3bf83b0d0c20dc32" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "de1a19730600bd295a9f2c5c3bf83b0d0c20dc32~1"
+    },
+    "e0bfe29d200975e78982db4b276829c4318100e1" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException" ],
+        "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "e0bfe29d200975e78982db4b276829c4318100e1~1"
+    },
+    "f59766841400a41a0f416ab669a249515179ab94" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile", "testWithInvalidRequest", "testWithNullContentType" ],
+        "org.apache.commons.fileupload2.MultipartStreamTest" : [ "testSmallBuffer", "testThreeParamConstructor", "testTwoParamConstructor" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "f59766841400a41a0f416ab669a249515179ab94~1"
+    },
+    "273cb114512f79dfe6cbce281a22976f174b588e" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile", "testWithNullContentType" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.portlet.PortletFileUploadTest" : [ "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "273cb114512f79dfe6cbce281a22976f174b588e~1"
+    },
+    "2317552993fd5180a84083d599b8cbdb05a07bab" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileItemSerializeTest" : [ "testBelowThreshold", "testInvalidRepository", "testInvalidRepositoryWithNullChar", "testThreshold", "testValidRepository" ],
+        "org.apache.commons.fileupload2.MultipartStreamTest" : [ "testSmallBuffer" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8" ],
+        "org.apache.commons.fileupload2.util.mime.Base64DecoderTestCase" : [ "badLength", "badPadding", "badPaddingLeading1", "badPaddingLeading2", "decodeTrailing1", "decodeTrailing2", "decodeTrailing3", "truncatedString" ],
+        "org.apache.commons.fileupload2.util.mime.MimeUtilityTestCase" : [ "decodeInvalidEncoding" ],
+        "org.apache.commons.fileupload2.util.mime.QuotedPrintableDecoderTestCase" : [ "invalidCharDecode", "invalidQuotedPrintableEncoding", "invalidSoftBreak1", "invalidSoftBreak2", "truncatedEscape" ]
+      },
+      "predecessor" : "2317552993fd5180a84083d599b8cbdb05a07bab~1"
+    },
+    "aa160b47b977590a7ed0038fbeda2cbdb3ca560c" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "aa160b47b977590a7ed0038fbeda2cbdb3ca560c~1"
+    },
+    "e8124cae7e107afe3ff468bb66d968e462ad108d" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "aa160b47b977590a7ed0038fbeda2cbdb3ca560c"
+    },
+    "fb8c1764ece508bb7cfc6c2e37d0f6b5132679e8" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testParsing", "testParsingEscapedChars" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "fb8c1764ece508bb7cfc6c2e37d0f6b5132679e8~1"
+    },
+    "1a8a103eefa5616503e9947804c6a20b12669e42" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DefaultFileItemTest" : [ "testAboveThresholdDefaultRepository", "testAboveThresholdSpecifiedRepository", "testBelowThreshold" ],
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.ParameterParserTest" : [ "testContentTypeParsing", "testFileUpload139", "testFileUpload199", "testFileUpload274", "testParsing", "testParsingEscapedChars" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "1a8a103eefa5616503e9947804c6a20b12669e42~1"
+    },
+    "cd031805d2618b0c1dd9c90265ebea1a1ce85387" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimitUnknownContentLength" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "1a8a103eefa5616503e9947804c6a20b12669e42"
+    },
+    "640b1d53adfeb7271480b4e43ec5bb2fd06e54b0" : {
+      "testcases" : {
+        "org.apache.commons.fileupload2.DiskFileUploadTest" : [ "testMoveFile" ],
+        "org.apache.commons.fileupload2.SizesTest" : [ "testFileSizeLimit", "testFileSizeLimitWithFakedContentLength", "testFileUpload", "testMaxSizeLimit" ],
+        "org.apache.commons.fileupload2.StreamingTest" : [ "testFILEUPLOAD135", "testFileUpload", "testFileUploadException", "testIOException", "testInvalidFileNameException" ],
+        "org.apache.commons.fileupload2.jaksrvlt.JakSrvltFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ],
+        "org.apache.commons.fileupload2.servlet.ServletFileUploadTest" : [ "parseImpliedUtf8", "parseParameterMap" ]
+      },
+      "predecessor" : "7f5b0d9a50b4b929bbec4fbac98b22957a603648"
     }
   },
   "android" : false
