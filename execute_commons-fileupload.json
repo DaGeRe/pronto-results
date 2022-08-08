@@ -1,6 +1,6 @@
 {
   "url" : "https://github.com/apache/commons-fileupload.git",
-  "versions" : {
+  "commits" : {
     "53b10a93934dff4331a40cdbfffc1928bcef4ff5" : {
       "testcases" : {
         "org.apache.commons.fileupload.ServletFileUploadTest" : [ "testEmptyFile", "testFileUpload", "testFilenameCaseSensitivity", "testIE5MacBug" ],
